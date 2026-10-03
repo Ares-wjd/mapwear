@@ -4,7 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MapWear — 영상으로 읽는 차선 상태</title>
-  <meta name="description" content="MapWear는 주행 영상을 AI로 분석해 차선 마모도를 LCS 점수로 바꾸고, 20m 구간 단위 지도로 제공합니다.">
+  <meta name="description" content="MapWear는 주행 영상을 AI로 분석해 차선 마모도를 LCS 점수로 바꾸고, 20m 구간 단위 지도로 보여줍니다.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <!-- 링크 미리보기 (카톡·메신저) — 그림은 절대 주소여야 한다 -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MapWear">
+  <meta property="og:title" content="MapWear — 영상으로 읽는 차선 상태">
+  <meta property="og:description" content="주행 영상을 AI로 분석해 차선 마모도를 LCS 점수로 바꾸고, 20m 구간 단위 지도로 보여줍니다.">
+  <meta property="og:url" content="https://ares-wjd.github.io/mapwear/">
+  <meta property="og:image" content="https://ares-wjd.github.io/mapwear/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0B1F33">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="assets/style.css">
@@ -28,7 +40,7 @@
   <div class="hero-inner">
     <span class="eyebrow">AI 기반 차선 상태 데이터</span>
     <h1>주행 영상 한 편으로<br><em>차선의 상태를 점수로</em></h1>
-    <p>MapWear는 주행 영상을 AI로 분석해 차선이 얼마나 닳았는지를
+    <p>MapWear는 주행 영상을 AI로 분석해 차선이 얼마나 마모되었는지를
        <b>LCS(Lane Condition Score)</b>로 바꾸고, 20m 구간마다 지도 위에 보여줍니다.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="dashboard.html">대시보드 보기 →</a>
@@ -47,7 +59,7 @@
   <div class="wrap">
     <div class="kicker">WHY</div>
     <h2>차선 점검, 이제 데이터로</h2>
-    <p class="lead">닳은 차선은 비 오는 밤에 잘 보이지 않고, 차선을 읽는 운전자 보조 기능도 헷갈리게 합니다.
+    <p class="lead">마모된 차선은 비 오는 밤처럼 시야가 나쁠 때 특히 잘 보이지 않습니다.
       MapWear는 차선 상태를 같은 기준의 숫자로 바꿔, 어디부터 손봐야 할지 한눈에 보이게 합니다.</p>
     <div class="cards3">
       <div class="card">
@@ -115,6 +127,7 @@
 
       <article class="step">
         <div class="step-media">
+          <span class="sample-tag">예시</span>
           <div class="mini-metrics" aria-label="4개 지표 예시">
             <div class="row"><span>면적 유지율</span><div class="bar"><i style="width:82%"></i></div><b>82</b></div>
             <div class="row"><span>연속성</span><div class="bar"><i style="width:96%"></i></div><b>96</b></div>
