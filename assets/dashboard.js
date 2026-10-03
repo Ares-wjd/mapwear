@@ -186,8 +186,9 @@ function renderDetail(s) {
 
   const metrics = C.METRICS.map((k) => {
     const v = d[k.key];
+    const col = MW.color(MW.gradeOf(v));      // 80 이상 초록 / 60~80 주황 / 60 미만 빨강
     return `<div class="metric"><span>${k.name}</span>
-      <div class="bar"><i style="width:${v ?? 0}%"></i></div><b>${MW.fmt(v, 0)}</b></div>`;
+      <div class="bar"><i style="width:${v ?? 0}%;background:${col}"></i></div><b style="color:${col}">${MW.fmt(v, 0)}</b></div>`;
   }).join("");
 
   $("panel").innerHTML = `
@@ -207,7 +208,8 @@ function renderDetail(s) {
     </div>
 
     <div class="block">
-      <div class="block-title" title="가중치: 면적 40% · 연속성 25% · 명암비 20% · 밝기 15%">세부 지표 ⓘ</div>
+      <div class="block-title" title="가중치: 면적 40% · 연속성 25% · 명암비 20% · 밝기 15%
+막대 색: 80 이상 초록 · 60~80 주황 · 60 미만 빨강">세부 지표 ⓘ</div>
       ${metrics}
     </div>
 

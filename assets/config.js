@@ -25,6 +25,14 @@ window.MW_CONFIG = {
   },
   NO_DATA: "데이터 부족",              // lcs_grade 가 null 인 구간의 이름 (형식 설명서 4장)
 
+  // 점수 → 등급 기준 (LCS 정의서 7장). 세부 지표 막대 색에도 같은 기준을 쓴다 (2026-10-03 사용자 요청)
+  // ⚠️ 정의서의 등급은 LCS 총점용이다. 지표마다 색을 칠하는 것은 화면 표시 규칙일 뿐이다
+  GRADE_CUTS: [
+    { min: 80, grade: "양호" },
+    { min: 60, grade: "주의" },
+    { min: 0,  grade: "위험" },
+  ],
+
   // 4지표 이름과 가중치 (LCS 정의서)
   METRICS: [
     { key: "area_score",       name: "면적 유지율", weight: 0.40 },
@@ -61,6 +69,12 @@ window.MW = {
       name: m.name,
       url: m.url.replace("{lat}", lat).replace("{lon}", lon).replace("{name}", encodeURIComponent(name)),
     }));
+  },
+
+  // 점수(0~100) -> 등급 이름. 점수가 없으면 "데이터 부족"
+  gradeOf(score) {
+    if (score === null || score === undefined) return MW_CONFIG.NO_DATA;
+    return (MW_CONFIG.GRADE_CUTS.find((c) => score >= c.min) || MW_CONFIG.GRADE_CUTS.at(-1)).grade;
   },
 
   color(grade) {
