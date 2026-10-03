@@ -181,6 +181,9 @@ function renderDetail(s) {
   const color = MW.color(s.grade);
   const noData = d.lcs_score === null;
 
+  const links = MW.mapLinks(d.latitude, d.longitude, `${d.road_name || ""} ${segName(s)}`.trim())
+    .map((l) => `<a class="maplink" href="${l.url}" target="_blank" rel="noopener">${l.name} ↗</a>`).join("");
+
   const metrics = C.METRICS.map((k) => {
     const v = d[k.key];
     return `<div class="metric"><span>${k.name}</span>
@@ -211,6 +214,7 @@ function renderDetail(s) {
     <div class="block">
       <div class="block-title">촬영 정보</div>
       <table class="info">
+        <tr><td>위치</td><td class="maplinks">${links}</td></tr>
         <tr><td>촬영 일시</td><td>${MW.fmtTime(d.captured_at)}</td></tr>
         <tr><td>유효 사진 수</td><td>${d.frame_count ?? "—"}장</td></tr>
         <tr><td>주간 / 야간</td><td>${m.day_night || "—"}</td></tr>
