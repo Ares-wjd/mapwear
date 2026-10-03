@@ -1,0 +1,5748 @@
+{
+  "schema_version": "1.2",
+  "segment_count": 147,
+  "segments": [
+    {
+      "segment_id": "SAMPLE_0001",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1872702,
+              35.1688873
+            ],
+            [
+              128.1874879,
+              35.1688612
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1688742,
+        "longitude": 128.187379,
+        "lcs_score": 69.8,
+        "area_score": 69.7,
+        "continuity_score": 74.7,
+        "contrast_score": 63.5,
+        "brightness_score": 70.2,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:00.507+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0002",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1874879,
+              35.1688612
+            ],
+            [
+              128.1877056,
+              35.1688351
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1688481,
+        "longitude": 128.1875967,
+        "lcs_score": 72.8,
+        "area_score": 72.8,
+        "continuity_score": 77.4,
+        "contrast_score": 67.0,
+        "brightness_score": 73.0,
+        "frame_count": 4,
+        "confidence": 0.882,
+        "captured_at": "2026-09-14T13:30:01.521+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0003",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1877056,
+              35.1688351
+            ],
+            [
+              128.1879233,
+              35.168809
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.168822,
+        "longitude": 128.1878144,
+        "lcs_score": 75.7,
+        "area_score": 75.8,
+        "continuity_score": 79.9,
+        "contrast_score": 70.3,
+        "brightness_score": 75.6,
+        "frame_count": 4,
+        "confidence": 0.889,
+        "captured_at": "2026-09-14T13:30:02.535+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0004",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1879233,
+              35.168809
+            ],
+            [
+              128.188141,
+              35.1687829
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1687959,
+        "longitude": 128.1880321,
+        "lcs_score": 78.3,
+        "area_score": 78.5,
+        "continuity_score": 82.3,
+        "contrast_score": 73.3,
+        "brightness_score": 77.9,
+        "frame_count": 4,
+        "confidence": 0.896,
+        "captured_at": "2026-09-14T13:30:03.549+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0005",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.188141,
+              35.1687829
+            ],
+            [
+              128.1883587,
+              35.1687568
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1687698,
+        "longitude": 128.1882498,
+        "lcs_score": 80.5,
+        "area_score": 80.8,
+        "continuity_score": 84.2,
+        "contrast_score": 75.9,
+        "brightness_score": 80.0,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:04.563+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0006",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1883587,
+              35.1687568
+            ],
+            [
+              128.1885764,
+              35.1687306
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1687437,
+        "longitude": 128.1884675,
+        "lcs_score": 82.4,
+        "area_score": 82.7,
+        "continuity_score": 85.9,
+        "contrast_score": 78.0,
+        "brightness_score": 81.6,
+        "frame_count": 4,
+        "confidence": 0.907,
+        "captured_at": "2026-09-14T13:30:05.577+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0007",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1885764,
+              35.1687306
+            ],
+            [
+              128.1886285,
+              35.1687244
+            ],
+            [
+              128.1887945,
+              35.1687068
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1687184,
+        "longitude": 128.1886854,
+        "lcs_score": 83.7,
+        "area_score": 84.1,
+        "continuity_score": 87.1,
+        "contrast_score": 79.5,
+        "brightness_score": 82.8,
+        "frame_count": 4,
+        "confidence": 0.91,
+        "captured_at": "2026-09-14T13:30:06.591+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0008",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1887945,
+              35.1687068
+            ],
+            [
+              128.1890127,
+              35.1686836
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1686952,
+        "longitude": 128.1889036,
+        "lcs_score": 84.6,
+        "area_score": 85.0,
+        "continuity_score": 87.8,
+        "contrast_score": 80.5,
+        "brightness_score": 83.6,
+        "frame_count": 4,
+        "confidence": 0.912,
+        "captured_at": "2026-09-14T13:30:07.605+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0009",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1890127,
+              35.1686836
+            ],
+            [
+              128.1892308,
+              35.1686604
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.168672,
+        "longitude": 128.1891217,
+        "lcs_score": 85.1,
+        "area_score": 85.5,
+        "continuity_score": 88.3,
+        "contrast_score": 81.1,
+        "brightness_score": 84.1,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:08.619+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0010",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1892308,
+              35.1686604
+            ],
+            [
+              128.189449,
+              35.1686372
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1686488,
+        "longitude": 128.1893399,
+        "lcs_score": 85.2,
+        "area_score": 85.6,
+        "continuity_score": 88.4,
+        "contrast_score": 81.2,
+        "brightness_score": 84.2,
+        "frame_count": 4,
+        "confidence": 0.914,
+        "captured_at": "2026-09-14T13:30:09.633+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0011",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.189449,
+              35.1686372
+            ],
+            [
+              128.1896672,
+              35.168614
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1686256,
+        "longitude": 128.1895581,
+        "lcs_score": 85.1,
+        "area_score": 85.5,
+        "continuity_score": 88.3,
+        "contrast_score": 81.1,
+        "brightness_score": 84.1,
+        "frame_count": 4,
+        "confidence": 0.914,
+        "captured_at": "2026-09-14T13:30:10.647+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0012",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1896672,
+              35.168614
+            ],
+            [
+              128.1898242,
+              35.1685973
+            ],
+            [
+              128.1898841,
+              35.1685852
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1686024,
+        "longitude": 128.1897763,
+        "lcs_score": 84.8,
+        "area_score": 85.2,
+        "continuity_score": 88.0,
+        "contrast_score": 80.8,
+        "brightness_score": 83.8,
+        "frame_count": 4,
+        "confidence": 0.913,
+        "captured_at": "2026-09-14T13:30:11.661+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0013",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1898841,
+              35.1685852
+            ],
+            [
+              128.1900978,
+              35.1685422
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1685637,
+        "longitude": 128.189991,
+        "lcs_score": 84.6,
+        "area_score": 85.0,
+        "continuity_score": 87.8,
+        "contrast_score": 80.5,
+        "brightness_score": 83.6,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:12.676+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0014",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1900978,
+              35.1685422
+            ],
+            [
+              128.1903114,
+              35.1684992
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1685207,
+        "longitude": 128.1902046,
+        "lcs_score": 84.5,
+        "area_score": 84.9,
+        "continuity_score": 87.8,
+        "contrast_score": 80.4,
+        "brightness_score": 83.5,
+        "frame_count": 4,
+        "confidence": 0.912,
+        "captured_at": "2026-09-14T13:30:13.690+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0015",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1903114,
+              35.1684992
+            ],
+            [
+              128.1905251,
+              35.1684562
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1684777,
+        "longitude": 128.1904183,
+        "lcs_score": 84.7,
+        "area_score": 85.0,
+        "continuity_score": 87.9,
+        "contrast_score": 80.6,
+        "brightness_score": 83.7,
+        "frame_count": 4,
+        "confidence": 0.912,
+        "captured_at": "2026-09-14T13:30:14.704+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0016",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1905251,
+              35.1684562
+            ],
+            [
+              128.1907387,
+              35.1684132
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1684347,
+        "longitude": 128.1906319,
+        "lcs_score": 85.1,
+        "area_score": 85.5,
+        "continuity_score": 88.3,
+        "contrast_score": 81.1,
+        "brightness_score": 84.1,
+        "frame_count": 4,
+        "confidence": 0.914,
+        "captured_at": "2026-09-14T13:30:15.718+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0017",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1907387,
+              35.1684132
+            ],
+            [
+              128.1909524,
+              35.1683702
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1683917,
+        "longitude": 128.1908455,
+        "lcs_score": 85.9,
+        "area_score": 86.3,
+        "continuity_score": 89.0,
+        "contrast_score": 82.0,
+        "brightness_score": 84.8,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:16.732+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0018",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1909524,
+              35.1683702
+            ],
+            [
+              128.191166,
+              35.1683271
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1683487,
+        "longitude": 128.1910592,
+        "lcs_score": 87.0,
+        "area_score": 87.5,
+        "continuity_score": 90.0,
+        "contrast_score": 83.3,
+        "brightness_score": 85.8,
+        "frame_count": 4,
+        "confidence": 0.919,
+        "captured_at": "2026-09-14T13:30:17.746+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0019",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.191166,
+              35.1683271
+            ],
+            [
+              128.1913796,
+              35.1682841
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1683056,
+        "longitude": 128.1912728,
+        "lcs_score": 88.4,
+        "area_score": 89.0,
+        "continuity_score": 91.2,
+        "contrast_score": 84.9,
+        "brightness_score": 87.1,
+        "frame_count": 4,
+        "confidence": 0.922,
+        "captured_at": "2026-09-14T13:30:18.760+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0020",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1913796,
+              35.1682841
+            ],
+            [
+              128.1915933,
+              35.1682411
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1682626,
+        "longitude": 128.1914865,
+        "lcs_score": 90.1,
+        "area_score": 90.7,
+        "continuity_score": 92.7,
+        "contrast_score": 86.9,
+        "brightness_score": 88.6,
+        "frame_count": 4,
+        "confidence": 0.927,
+        "captured_at": "2026-09-14T13:30:19.774+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0021",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1915933,
+              35.1682411
+            ],
+            [
+              128.1918069,
+              35.1681981
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1682196,
+        "longitude": 128.1917001,
+        "lcs_score": 92.0,
+        "area_score": 92.6,
+        "continuity_score": 94.4,
+        "contrast_score": 89.0,
+        "brightness_score": 90.3,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:20.788+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0022",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1918069,
+              35.1681981
+            ],
+            [
+              128.1920206,
+              35.1681551
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1681766,
+        "longitude": 128.1919137,
+        "lcs_score": 93.8,
+        "area_score": 94.5,
+        "continuity_score": 96.0,
+        "contrast_score": 91.1,
+        "brightness_score": 91.9,
+        "frame_count": 4,
+        "confidence": 0.936,
+        "captured_at": "2026-09-14T13:30:21.802+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0023",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1920206,
+              35.1681551
+            ],
+            [
+              128.1921983,
+              35.1681193
+            ],
+            [
+              128.1922342,
+              35.1681121
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1681336,
+        "longitude": 128.1921274,
+        "lcs_score": 95.5,
+        "area_score": 96.3,
+        "continuity_score": 97.5,
+        "contrast_score": 93.1,
+        "brightness_score": 93.5,
+        "frame_count": 4,
+        "confidence": 0.941,
+        "captured_at": "2026-09-14T13:30:22.816+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0024",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1922342,
+              35.1681121
+            ],
+            [
+              128.1924479,
+              35.1680691
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1680906,
+        "longitude": 128.192341,
+        "lcs_score": 97.0,
+        "area_score": 97.8,
+        "continuity_score": 98.8,
+        "contrast_score": 94.8,
+        "brightness_score": 94.8,
+        "frame_count": 4,
+        "confidence": 0.944,
+        "captured_at": "2026-09-14T13:30:23.830+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0025",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1924479,
+              35.1680691
+            ],
+            [
+              128.1926615,
+              35.1680261
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1680476,
+        "longitude": 128.1925547,
+        "lcs_score": 97.2,
+        "area_score": 98.0,
+        "continuity_score": 99.0,
+        "contrast_score": 95.0,
+        "brightness_score": 95.0,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:24.845+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0026",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1926615,
+              35.1680261
+            ],
+            [
+              128.1928752,
+              35.1679831
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1680046,
+        "longitude": 128.1927683,
+        "lcs_score": 97.2,
+        "area_score": 98.0,
+        "continuity_score": 99.0,
+        "contrast_score": 95.0,
+        "brightness_score": 95.0,
+        "frame_count": 4,
+        "confidence": 0.945,
+        "captured_at": "2026-09-14T13:30:25.859+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0027",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1928752,
+              35.1679831
+            ],
+            [
+              128.1930888,
+              35.1679401
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1679616,
+        "longitude": 128.192982,
+        "lcs_score": 97.2,
+        "area_score": 98.0,
+        "continuity_score": 99.0,
+        "contrast_score": 95.0,
+        "brightness_score": 95.0,
+        "frame_count": 4,
+        "confidence": 0.945,
+        "captured_at": "2026-09-14T13:30:26.873+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0028",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1930888,
+              35.1679401
+            ],
+            [
+              128.1932547,
+              35.1679067
+            ],
+            [
+              128.1933025,
+              35.1678974
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1679186,
+        "longitude": 128.1931956,
+        "lcs_score": 97.2,
+        "area_score": 98.0,
+        "continuity_score": 99.0,
+        "contrast_score": 95.0,
+        "brightness_score": 95.0,
+        "frame_count": 4,
+        "confidence": 0.945,
+        "captured_at": "2026-09-14T13:30:27.887+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0029",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1933025,
+              35.1678974
+            ],
+            [
+              128.1935166,
+              35.1678558
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1678766,
+        "longitude": 128.1934096,
+        "lcs_score": 97.2,
+        "area_score": 98.0,
+        "continuity_score": 99.0,
+        "contrast_score": 95.0,
+        "brightness_score": 95.0,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:28.901+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0030",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1935166,
+              35.1678558
+            ],
+            [
+              128.1936943,
+              35.1678212
+            ],
+            [
+              128.1937317,
+              35.1678213
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1678349,
+        "longitude": 128.1936236,
+        "lcs_score": 96.2,
+        "area_score": 96.9,
+        "continuity_score": 98.1,
+        "contrast_score": 93.8,
+        "brightness_score": 94.1,
+        "frame_count": 4,
+        "confidence": 0.942,
+        "captured_at": "2026-09-14T13:30:29.915+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0031",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1937317,
+              35.1678213
+            ],
+            [
+              128.1939517,
+              35.1678221
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1678217,
+        "longitude": 128.1938417,
+        "lcs_score": 94.4,
+        "area_score": 95.1,
+        "continuity_score": 96.5,
+        "contrast_score": 91.8,
+        "brightness_score": 92.5,
+        "frame_count": 4,
+        "confidence": 0.938,
+        "captured_at": "2026-09-14T13:30:30.929+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0032",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1939517,
+              35.1678221
+            ],
+            [
+              128.1941717,
+              35.1678229
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1678225,
+        "longitude": 128.1940617,
+        "lcs_score": 92.3,
+        "area_score": 93.0,
+        "continuity_score": 94.7,
+        "contrast_score": 89.4,
+        "brightness_score": 90.6,
+        "frame_count": 4,
+        "confidence": 0.932,
+        "captured_at": "2026-09-14T13:30:31.943+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0033",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1941717,
+              35.1678229
+            ],
+            [
+              128.1943217,
+              35.1678234
+            ],
+            [
+              128.1943911,
+              35.1678312
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1678233,
+        "longitude": 128.1942817,
+        "lcs_score": 90.2,
+        "area_score": 90.8,
+        "continuity_score": 92.8,
+        "contrast_score": 86.9,
+        "brightness_score": 88.7,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:32.957+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0034",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1943911,
+              35.1678312
+            ],
+            [
+              128.194609,
+              35.1678557
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1678435,
+        "longitude": 128.1945001,
+        "lcs_score": 88.0,
+        "area_score": 88.5,
+        "continuity_score": 90.9,
+        "contrast_score": 84.5,
+        "brightness_score": 86.7,
+        "frame_count": 4,
+        "confidence": 0.921,
+        "captured_at": "2026-09-14T13:30:33.971+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0035",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.194609,
+              35.1678557
+            ],
+            [
+              128.194827,
+              35.1678802
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.167868,
+        "longitude": 128.194718,
+        "lcs_score": 86.0,
+        "area_score": 86.4,
+        "continuity_score": 89.1,
+        "contrast_score": 82.1,
+        "brightness_score": 84.9,
+        "frame_count": 4,
+        "confidence": 0.916,
+        "captured_at": "2026-09-14T13:30:34.985+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0036",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.194827,
+              35.1678802
+            ],
+            [
+              128.1948284,
+              35.1678804
+            ],
+            [
+              128.1950384,
+              35.1679302
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1679051,
+        "longitude": 128.1949327,
+        "lcs_score": 84.2,
+        "area_score": 84.6,
+        "continuity_score": 87.5,
+        "contrast_score": 80.1,
+        "brightness_score": 83.3,
+        "frame_count": 4,
+        "confidence": 0.911,
+        "captured_at": "2026-09-14T13:30:36.000+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0037",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1950384,
+              35.1679302
+            ],
+            [
+              128.1952497,
+              35.1679802
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1679552,
+        "longitude": 128.1951441,
+        "lcs_score": 82.8,
+        "area_score": 83.1,
+        "continuity_score": 86.2,
+        "contrast_score": 78.4,
+        "brightness_score": 82.0,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:37.014+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0038",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1952497,
+              35.1679802
+            ],
+            [
+              128.1953834,
+              35.1680119
+            ],
+            [
+              128.19546,
+              35.1680331
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1680053,
+        "longitude": 128.1953554,
+        "lcs_score": 81.6,
+        "area_score": 81.9,
+        "continuity_score": 85.2,
+        "contrast_score": 77.1,
+        "brightness_score": 80.9,
+        "frame_count": 4,
+        "confidence": 0.905,
+        "captured_at": "2026-09-14T13:30:38.028+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0039",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.19546,
+              35.1680331
+            ],
+            [
+              128.1956684,
+              35.1680907
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1680619,
+        "longitude": 128.1955642,
+        "lcs_score": 80.9,
+        "area_score": 81.1,
+        "continuity_score": 84.5,
+        "contrast_score": 76.3,
+        "brightness_score": 80.3,
+        "frame_count": 4,
+        "confidence": 0.903,
+        "captured_at": "2026-09-14T13:30:39.042+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0040",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1956684,
+              35.1680907
+            ],
+            [
+              128.1958768,
+              35.1681484
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1681196,
+        "longitude": 128.1957726,
+        "lcs_score": 80.5,
+        "area_score": 80.7,
+        "continuity_score": 84.2,
+        "contrast_score": 75.8,
+        "brightness_score": 79.9,
+        "frame_count": 4,
+        "confidence": 0.902,
+        "captured_at": "2026-09-14T13:30:40.056+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0041",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1958768,
+              35.1681484
+            ],
+            [
+              128.1960724,
+              35.1682025
+            ],
+            [
+              128.1960841,
+              35.1682081
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1681772,
+        "longitude": 128.195981,
+        "lcs_score": 80.3,
+        "area_score": 80.5,
+        "continuity_score": 84.0,
+        "contrast_score": 75.6,
+        "brightness_score": 79.8,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:41.070+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0042",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1960841,
+              35.1682081
+            ],
+            [
+              128.1962743,
+              35.1682985
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1682533,
+        "longitude": 128.1961792,
+        "lcs_score": 80.3,
+        "area_score": 80.5,
+        "continuity_score": 84.0,
+        "contrast_score": 75.6,
+        "brightness_score": 79.8,
+        "frame_count": 4,
+        "confidence": 0.901,
+        "captured_at": "2026-09-14T13:30:42.084+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0043",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1962743,
+              35.1682985
+            ],
+            [
+              128.1964645,
+              35.1683889
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1683437,
+        "longitude": 128.1963694,
+        "lcs_score": 80.4,
+        "area_score": 80.6,
+        "continuity_score": 84.1,
+        "contrast_score": 75.7,
+        "brightness_score": 79.8,
+        "frame_count": 4,
+        "confidence": 0.901,
+        "captured_at": "2026-09-14T13:30:43.098+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0044",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1964645,
+              35.1683889
+            ],
+            [
+              128.1965657,
+              35.168437
+            ],
+            [
+              128.1966502,
+              35.1684851
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1684341,
+        "longitude": 128.1965596,
+        "lcs_score": 80.4,
+        "area_score": 80.6,
+        "continuity_score": 84.1,
+        "contrast_score": 75.6,
+        "brightness_score": 79.8,
+        "frame_count": 4,
+        "confidence": 0.901,
+        "captured_at": "2026-09-14T13:30:44.112+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0045",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1966502,
+              35.1684851
+            ],
+            [
+              128.1968308,
+              35.1685879
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1685365,
+        "longitude": 128.1967405,
+        "lcs_score": 80.1,
+        "area_score": 80.3,
+        "continuity_score": 83.9,
+        "contrast_score": 75.4,
+        "brightness_score": 79.6,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:45.126+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0046",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1968308,
+              35.1685879
+            ],
+            [
+              128.1969008,
+              35.1686277
+            ],
+            [
+              128.1970091,
+              35.1686932
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1686397,
+        "longitude": 128.1969207,
+        "lcs_score": 79.6,
+        "area_score": 79.8,
+        "continuity_score": 83.4,
+        "contrast_score": 74.7,
+        "brightness_score": 79.1,
+        "frame_count": 4,
+        "confidence": 0.899,
+        "captured_at": "2026-09-14T13:30:46.140+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0047",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1970091,
+              35.1686932
+            ],
+            [
+              128.1971861,
+              35.1688001
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1687466,
+        "longitude": 128.1970976,
+        "lcs_score": 78.6,
+        "area_score": 78.8,
+        "continuity_score": 82.6,
+        "contrast_score": 73.7,
+        "brightness_score": 78.2,
+        "frame_count": 4,
+        "confidence": 0.897,
+        "captured_at": "2026-09-14T13:30:47.154+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0048",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1971861,
+              35.1688001
+            ],
+            [
+              128.1972199,
+              35.1688205
+            ],
+            [
+              128.1973271,
+              35.1688994
+            ],
+            [
+              128.1973533,
+              35.1689167
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1688577,
+        "longitude": 128.1972704,
+        "lcs_score": 77.3,
+        "area_score": 77.4,
+        "continuity_score": 81.3,
+        "contrast_score": 72.1,
+        "brightness_score": 77.0,
+        "frame_count": 4,
+        "confidence": 0.893,
+        "captured_at": "2026-09-14T13:30:48.169+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0049",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1973533,
+              35.1689167
+            ],
+            [
+              128.1975245,
+              35.1690298
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689732,
+        "longitude": 128.1974389,
+        "lcs_score": 75.4,
+        "area_score": 75.5,
+        "continuity_score": 79.7,
+        "contrast_score": 70.0,
+        "brightness_score": 75.4,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:49.183+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0050",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1975245,
+              35.1690298
+            ],
+            [
+              128.1976957,
+              35.1691428
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1690863,
+        "longitude": 128.1976101,
+        "lcs_score": 73.2,
+        "area_score": 73.2,
+        "continuity_score": 77.7,
+        "contrast_score": 67.4,
+        "brightness_score": 73.3,
+        "frame_count": 4,
+        "confidence": 0.883,
+        "captured_at": "2026-09-14T13:30:50.197+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0051",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1976957,
+              35.1691428
+            ],
+            [
+              128.1978668,
+              35.1692558
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1691993,
+        "longitude": 128.1977813,
+        "lcs_score": 70.6,
+        "area_score": 70.5,
+        "continuity_score": 75.4,
+        "contrast_score": 64.5,
+        "brightness_score": 71.0,
+        "frame_count": 4,
+        "confidence": 0.876,
+        "captured_at": "2026-09-14T13:30:51.211+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0052",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1978668,
+              35.1692558
+            ],
+            [
+              128.1979974,
+              35.169342
+            ],
+            [
+              128.1980417,
+              35.1693645
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1693123,
+        "longitude": 128.1979524,
+        "lcs_score": 67.8,
+        "area_score": 67.6,
+        "continuity_score": 72.9,
+        "contrast_score": 61.2,
+        "brightness_score": 68.4,
+        "frame_count": 4,
+        "confidence": 0.869,
+        "captured_at": "2026-09-14T13:30:52.225+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0053",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1980417,
+              35.1693645
+            ],
+            [
+              128.1982286,
+              35.1694595
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.169412,
+        "longitude": 128.1981351,
+        "lcs_score": 64.8,
+        "area_score": 64.5,
+        "continuity_score": 70.3,
+        "contrast_score": 57.8,
+        "brightness_score": 65.7,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:53.239+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0054",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1982286,
+              35.1694595
+            ],
+            [
+              128.1983379,
+              35.1695151
+            ],
+            [
+              128.1984215,
+              35.1695451
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.169507,
+        "longitude": 128.198322,
+        "lcs_score": 61.8,
+        "area_score": 61.4,
+        "continuity_score": 67.6,
+        "contrast_score": 54.3,
+        "brightness_score": 63.1,
+        "frame_count": 4,
+        "confidence": 0.853,
+        "captured_at": "2026-09-14T13:30:54.253+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0055",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1984215,
+              35.1695451
+            ],
+            [
+              128.198623,
+              35.1696173
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1695812,
+        "longitude": 128.1985223,
+        "lcs_score": 59.0,
+        "area_score": 58.5,
+        "continuity_score": 65.1,
+        "contrast_score": 51.1,
+        "brightness_score": 60.5,
+        "frame_count": 4,
+        "confidence": 0.846,
+        "captured_at": "2026-09-14T13:30:55.267+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0056",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.198623,
+              35.1696173
+            ],
+            [
+              128.1988245,
+              35.1696895
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1696534,
+        "longitude": 128.1987238,
+        "lcs_score": 56.4,
+        "area_score": 55.8,
+        "continuity_score": 62.8,
+        "contrast_score": 48.1,
+        "brightness_score": 58.2,
+        "frame_count": 4,
+        "confidence": 0.839,
+        "captured_at": "2026-09-14T13:30:56.281+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0057",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1988245,
+              35.1696895
+            ],
+            [
+              128.1989679,
+              35.1697409
+            ],
+            [
+              128.1990288,
+              35.1697556
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1697256,
+        "longitude": 128.1989253,
+        "lcs_score": 54.2,
+        "area_score": 53.5,
+        "continuity_score": 60.9,
+        "contrast_score": 45.6,
+        "brightness_score": 56.2,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:30:57.295+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0058",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1990288,
+              35.1697556
+            ],
+            [
+              128.1992398,
+              35.1698066
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1697811,
+        "longitude": 128.1991343,
+        "lcs_score": 52.4,
+        "area_score": 51.7,
+        "continuity_score": 59.3,
+        "contrast_score": 43.6,
+        "brightness_score": 54.6,
+        "frame_count": 4,
+        "confidence": 0.829,
+        "captured_at": "2026-09-14T13:30:58.309+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0059",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1992398,
+              35.1698066
+            ],
+            [
+              128.1994508,
+              35.1698576
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1698321,
+        "longitude": 128.1993453,
+        "lcs_score": 51.2,
+        "area_score": 50.4,
+        "continuity_score": 58.2,
+        "contrast_score": 42.1,
+        "brightness_score": 53.5,
+        "frame_count": 4,
+        "confidence": 0.826,
+        "captured_at": "2026-09-14T13:30:59.323+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0060",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1994508,
+              35.1698576
+            ],
+            [
+              128.1996113,
+              35.1698964
+            ],
+            [
+              128.1996635,
+              35.1699021
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1698831,
+        "longitude": 128.1995563,
+        "lcs_score": 50.4,
+        "area_score": 49.6,
+        "continuity_score": 57.5,
+        "contrast_score": 41.2,
+        "brightness_score": 52.8,
+        "frame_count": 4,
+        "confidence": 0.824,
+        "captured_at": "2026-09-14T13:31:00.338+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0061",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1996635,
+              35.1699021
+            ],
+            [
+              128.1998815,
+              35.1699261
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1699141,
+        "longitude": 128.1997725,
+        "lcs_score": 50.1,
+        "area_score": 49.3,
+        "continuity_score": 57.2,
+        "contrast_score": 40.9,
+        "brightness_score": 52.5,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:01.352+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0062",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.1998815,
+              35.1699261
+            ],
+            [
+              128.2000996,
+              35.1699501
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1699381,
+        "longitude": 128.1999906,
+        "lcs_score": 50.1,
+        "area_score": 49.3,
+        "continuity_score": 57.3,
+        "contrast_score": 40.9,
+        "brightness_score": 52.5,
+        "frame_count": 4,
+        "confidence": 0.823,
+        "captured_at": "2026-09-14T13:31:02.366+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0063",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2000996,
+              35.1699501
+            ],
+            [
+              128.2002092,
+              35.1699622
+            ],
+            [
+              128.2003185,
+              35.1699671
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1699621,
+        "longitude": 128.2002086,
+        "lcs_score": 50.5,
+        "area_score": 49.7,
+        "continuity_score": 57.6,
+        "contrast_score": 41.3,
+        "brightness_score": 52.8,
+        "frame_count": 4,
+        "confidence": 0.824,
+        "captured_at": "2026-09-14T13:31:03.380+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0064",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2003185,
+              35.1699671
+            ],
+            [
+              128.2005382,
+              35.169977
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1699721,
+        "longitude": 128.2004283,
+        "lcs_score": 50.9,
+        "area_score": 50.2,
+        "continuity_score": 58.0,
+        "contrast_score": 41.9,
+        "brightness_score": 53.2,
+        "frame_count": 4,
+        "confidence": 0.825,
+        "captured_at": "2026-09-14T13:31:04.394+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0065",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2005382,
+              35.169977
+            ],
+            [
+              128.2007579,
+              35.1699869
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.169982,
+        "longitude": 128.200648,
+        "lcs_score": 51.4,
+        "area_score": 50.7,
+        "continuity_score": 58.4,
+        "contrast_score": 42.4,
+        "brightness_score": 53.7,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:05.408+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0066",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2007579,
+              35.1699869
+            ],
+            [
+              128.2009776,
+              35.1699968
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1699919,
+        "longitude": 128.2008677,
+        "lcs_score": 51.8,
+        "area_score": 51.1,
+        "continuity_score": 58.8,
+        "contrast_score": 42.9,
+        "brightness_score": 54.1,
+        "frame_count": 4,
+        "confidence": 0.828,
+        "captured_at": "2026-09-14T13:31:06.422+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0067",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2009776,
+              35.1699968
+            ],
+            [
+              128.2011973,
+              35.1700067
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700018,
+        "longitude": 128.2010874,
+        "lcs_score": 52.0,
+        "area_score": 51.3,
+        "continuity_score": 59.0,
+        "contrast_score": 43.1,
+        "brightness_score": 54.2,
+        "frame_count": 4,
+        "confidence": 0.828,
+        "captured_at": "2026-09-14T13:31:07.436+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0068",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2011973,
+              35.1700067
+            ],
+            [
+              128.201417,
+              35.1700166
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700117,
+        "longitude": 128.2013071,
+        "lcs_score": 51.9,
+        "area_score": 51.2,
+        "continuity_score": 58.9,
+        "contrast_score": 43.0,
+        "brightness_score": 54.2,
+        "frame_count": 4,
+        "confidence": 0.828,
+        "captured_at": "2026-09-14T13:31:08.450+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0069",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.201417,
+              35.1700166
+            ],
+            [
+              128.2016367,
+              35.1700265
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700216,
+        "longitude": 128.2015268,
+        "lcs_score": 51.5,
+        "area_score": 50.8,
+        "continuity_score": 58.5,
+        "contrast_score": 42.5,
+        "brightness_score": 53.8,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:09.464+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0070",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2016367,
+              35.1700265
+            ],
+            [
+              128.2016677,
+              35.1700279
+            ],
+            [
+              128.2018565,
+              35.1700342
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700305,
+        "longitude": 128.2017466,
+        "lcs_score": 50.8,
+        "area_score": 50.0,
+        "continuity_score": 57.9,
+        "contrast_score": 41.7,
+        "brightness_score": 53.1,
+        "frame_count": 4,
+        "confidence": 0.825,
+        "captured_at": "2026-09-14T13:31:10.478+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0071",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2018565,
+              35.1700342
+            ],
+            [
+              128.2020763,
+              35.1700416
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700379,
+        "longitude": 128.2019664,
+        "lcs_score": 49.7,
+        "area_score": 48.9,
+        "continuity_score": 56.9,
+        "contrast_score": 40.4,
+        "brightness_score": 52.1,
+        "frame_count": 4,
+        "confidence": 0.822,
+        "captured_at": "2026-09-14T13:31:11.492+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0072",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2020763,
+              35.1700416
+            ],
+            [
+              128.2022962,
+              35.1700489
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700452,
+        "longitude": 128.2021863,
+        "lcs_score": 48.3,
+        "area_score": 47.5,
+        "continuity_score": 55.7,
+        "contrast_score": 38.9,
+        "brightness_score": 50.9,
+        "frame_count": 4,
+        "confidence": 0.819,
+        "captured_at": "2026-09-14T13:31:12.507+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0073",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2022962,
+              35.1700489
+            ],
+            [
+              128.202516,
+              35.1700563
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700526,
+        "longitude": 128.2024061,
+        "lcs_score": 46.9,
+        "area_score": 46.0,
+        "continuity_score": 54.4,
+        "contrast_score": 37.2,
+        "brightness_score": 49.6,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:13.521+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0074",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.202516,
+              35.1700563
+            ],
+            [
+              128.2027359,
+              35.1700636
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700599,
+        "longitude": 128.202626,
+        "lcs_score": 45.4,
+        "area_score": 44.5,
+        "continuity_score": 53.1,
+        "contrast_score": 35.5,
+        "brightness_score": 48.2,
+        "frame_count": 4,
+        "confidence": 0.811,
+        "captured_at": "2026-09-14T13:31:14.535+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0075",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2027359,
+              35.1700636
+            ],
+            [
+              128.202783,
+              35.1700652
+            ],
+            [
+              128.2029557,
+              35.1700714
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700675,
+        "longitude": 128.2028458,
+        "lcs_score": 44.0,
+        "area_score": 43.0,
+        "continuity_score": 51.9,
+        "contrast_score": 33.9,
+        "brightness_score": 47.0,
+        "frame_count": 4,
+        "confidence": 0.807,
+        "captured_at": "2026-09-14T13:31:15.549+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0076",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2029557,
+              35.1700714
+            ],
+            [
+              128.2031755,
+              35.1700794
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700754,
+        "longitude": 128.2030656,
+        "lcs_score": 42.8,
+        "area_score": 41.8,
+        "continuity_score": 50.8,
+        "contrast_score": 32.6,
+        "brightness_score": 45.9,
+        "frame_count": 4,
+        "confidence": 0.804,
+        "captured_at": "2026-09-14T13:31:16.563+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0077",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2031755,
+              35.1700794
+            ],
+            [
+              128.2033954,
+              35.1700873
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700833,
+        "longitude": 128.2032854,
+        "lcs_score": 42.0,
+        "area_score": 41.0,
+        "continuity_score": 50.1,
+        "contrast_score": 31.6,
+        "brightness_score": 45.2,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:17.577+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0078",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2033954,
+              35.1700873
+            ],
+            [
+              128.2036152,
+              35.1700952
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700912,
+        "longitude": 128.2035053,
+        "lcs_score": 41.7,
+        "area_score": 40.6,
+        "continuity_score": 49.8,
+        "contrast_score": 31.2,
+        "brightness_score": 44.9,
+        "frame_count": 4,
+        "confidence": 0.801,
+        "captured_at": "2026-09-14T13:31:18.591+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0079",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2036152,
+              35.1700952
+            ],
+            [
+              128.203835,
+              35.1701031
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700992,
+        "longitude": 128.2037251,
+        "lcs_score": 41.8,
+        "area_score": 40.7,
+        "continuity_score": 49.9,
+        "contrast_score": 31.4,
+        "brightness_score": 45.0,
+        "frame_count": 4,
+        "confidence": 0.802,
+        "captured_at": "2026-09-14T13:31:19.605+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0080",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.203835,
+              35.1701031
+            ],
+            [
+              128.2039975,
+              35.170109
+            ],
+            [
+              128.2040548,
+              35.1701116
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701071,
+        "longitude": 128.2039449,
+        "lcs_score": 42.4,
+        "area_score": 41.4,
+        "continuity_score": 50.5,
+        "contrast_score": 32.1,
+        "brightness_score": 45.6,
+        "frame_count": 4,
+        "confidence": 0.803,
+        "captured_at": "2026-09-14T13:31:20.619+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0081",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2040548,
+              35.1701116
+            ],
+            [
+              128.2042745,
+              35.1701217
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701167,
+        "longitude": 128.2041646,
+        "lcs_score": 43.7,
+        "area_score": 42.7,
+        "continuity_score": 51.6,
+        "contrast_score": 33.5,
+        "brightness_score": 46.7,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:21.633+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0082",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2042745,
+              35.1701217
+            ],
+            [
+              128.2044941,
+              35.1701318
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701268,
+        "longitude": 128.2043843,
+        "lcs_score": 45.3,
+        "area_score": 44.4,
+        "continuity_score": 53.0,
+        "contrast_score": 35.4,
+        "brightness_score": 48.2,
+        "frame_count": 4,
+        "confidence": 0.811,
+        "captured_at": "2026-09-14T13:31:22.647+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0083",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2044941,
+              35.1701318
+            ],
+            [
+              128.2047138,
+              35.170142
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701369,
+        "longitude": 128.204604,
+        "lcs_score": 47.4,
+        "area_score": 46.5,
+        "continuity_score": 54.8,
+        "contrast_score": 37.8,
+        "brightness_score": 50.0,
+        "frame_count": 4,
+        "confidence": 0.816,
+        "captured_at": "2026-09-14T13:31:23.661+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0084",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2047138,
+              35.170142
+            ],
+            [
+              128.2049335,
+              35.1701521
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.170147,
+        "longitude": 128.2048237,
+        "lcs_score": 49.7,
+        "area_score": 48.9,
+        "continuity_score": 56.9,
+        "contrast_score": 40.4,
+        "brightness_score": 52.1,
+        "frame_count": 4,
+        "confidence": 0.822,
+        "captured_at": "2026-09-14T13:31:24.676+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0085",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2049335,
+              35.1701521
+            ],
+            [
+              128.2051532,
+              35.1701622
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701571,
+        "longitude": 128.2050434,
+        "lcs_score": 52.1,
+        "area_score": 51.4,
+        "continuity_score": 59.1,
+        "contrast_score": 43.2,
+        "brightness_score": 54.3,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:25.690+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0086",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2051532,
+              35.1701622
+            ],
+            [
+              128.2053729,
+              35.1701723
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701672,
+        "longitude": 128.205263,
+        "lcs_score": 54.5,
+        "area_score": 53.9,
+        "continuity_score": 61.2,
+        "contrast_score": 46.0,
+        "brightness_score": 56.5,
+        "frame_count": 4,
+        "confidence": 0.835,
+        "captured_at": "2026-09-14T13:31:26.704+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0087",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2053729,
+              35.1701723
+            ],
+            [
+              128.2055926,
+              35.1701824
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701773,
+        "longitude": 128.2054827,
+        "lcs_score": 56.9,
+        "area_score": 56.3,
+        "continuity_score": 63.3,
+        "contrast_score": 48.7,
+        "brightness_score": 58.6,
+        "frame_count": 4,
+        "confidence": 0.841,
+        "captured_at": "2026-09-14T13:31:27.718+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0088",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2055926,
+              35.1701824
+            ],
+            [
+              128.2057363,
+              35.170189
+            ],
+            [
+              128.2058124,
+              35.1701898
+            ]
+          ]
+        },
+        "lcs_grade": "위험"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701874,
+        "longitude": 128.2057024,
+        "lcs_score": 59.0,
+        "area_score": 58.5,
+        "continuity_score": 65.1,
+        "contrast_score": 51.1,
+        "brightness_score": 60.5,
+        "frame_count": 4,
+        "confidence": 0.846,
+        "captured_at": "2026-09-14T13:31:28.732+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0089",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2058124,
+              35.1701898
+            ],
+            [
+              128.2060324,
+              35.1701923
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701911,
+        "longitude": 128.2059224,
+        "lcs_score": 60.7,
+        "area_score": 60.3,
+        "continuity_score": 66.7,
+        "contrast_score": 53.1,
+        "brightness_score": 62.1,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:29.746+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0090",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2060324,
+              35.1701923
+            ],
+            [
+              128.2062524,
+              35.1701947
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701935,
+        "longitude": 128.2061424,
+        "lcs_score": 62.1,
+        "area_score": 61.7,
+        "continuity_score": 67.9,
+        "contrast_score": 54.7,
+        "brightness_score": 63.4,
+        "frame_count": 4,
+        "confidence": 0.854,
+        "captured_at": "2026-09-14T13:31:30.760+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0091",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2062524,
+              35.1701947
+            ],
+            [
+              128.2064724,
+              35.1701971
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701959,
+        "longitude": 128.2063624,
+        "lcs_score": 63.1,
+        "area_score": 62.8,
+        "continuity_score": 68.8,
+        "contrast_score": 55.9,
+        "brightness_score": 64.3,
+        "frame_count": 4,
+        "confidence": 0.857,
+        "captured_at": "2026-09-14T13:31:31.774+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0092",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2064724,
+              35.1701971
+            ],
+            [
+              128.2066924,
+              35.1701996
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701983,
+        "longitude": 128.2065824,
+        "lcs_score": 63.8,
+        "area_score": 63.5,
+        "continuity_score": 69.4,
+        "contrast_score": 56.6,
+        "brightness_score": 64.8,
+        "frame_count": 4,
+        "confidence": 0.859,
+        "captured_at": "2026-09-14T13:31:32.788+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0093",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2066924,
+              35.1701996
+            ],
+            [
+              128.2067229,
+              35.1701999
+            ],
+            [
+              128.2069123,
+              35.1701941
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701975,
+        "longitude": 128.2068024,
+        "lcs_score": 64.1,
+        "area_score": 63.8,
+        "continuity_score": 69.7,
+        "contrast_score": 57.0,
+        "brightness_score": 65.2,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:33.802+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0094",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2069123,
+              35.1701941
+            ],
+            [
+              128.2071322,
+              35.1701874
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701908,
+        "longitude": 128.2070222,
+        "lcs_score": 64.3,
+        "area_score": 64.0,
+        "continuity_score": 69.8,
+        "contrast_score": 57.2,
+        "brightness_score": 65.3,
+        "frame_count": 4,
+        "confidence": 0.86,
+        "captured_at": "2026-09-14T13:31:34.816+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0095",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2071322,
+              35.1701874
+            ],
+            [
+              128.2071519,
+              35.1701868
+            ],
+            [
+              128.2073506,
+              35.1701663
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701775,
+        "longitude": 128.2072415,
+        "lcs_score": 64.4,
+        "area_score": 64.1,
+        "continuity_score": 69.9,
+        "contrast_score": 57.3,
+        "brightness_score": 65.4,
+        "frame_count": 4,
+        "confidence": 0.86,
+        "captured_at": "2026-09-14T13:31:35.830+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0096",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2073506,
+              35.1701663
+            ],
+            [
+              128.2075689,
+              35.1701437
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.170155,
+        "longitude": 128.2074598,
+        "lcs_score": 64.5,
+        "area_score": 64.2,
+        "continuity_score": 70.0,
+        "contrast_score": 57.4,
+        "brightness_score": 65.5,
+        "frame_count": 4,
+        "confidence": 0.86,
+        "captured_at": "2026-09-14T13:31:36.845+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0097",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2075689,
+              35.1701437
+            ],
+            [
+              128.2075969,
+              35.1701408
+            ],
+            [
+              128.2077863,
+              35.1701157
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701301,
+        "longitude": 128.2076777,
+        "lcs_score": 64.7,
+        "area_score": 64.5,
+        "continuity_score": 70.2,
+        "contrast_score": 57.7,
+        "brightness_score": 65.7,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:37.859+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0098",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2077863,
+              35.1701157
+            ],
+            [
+              128.2079937,
+              35.1700882
+            ],
+            [
+              128.2080034,
+              35.1700867
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1701013,
+        "longitude": 128.2078949,
+        "lcs_score": 65.3,
+        "area_score": 65.0,
+        "continuity_score": 70.7,
+        "contrast_score": 58.4,
+        "brightness_score": 66.2,
+        "frame_count": 4,
+        "confidence": 0.862,
+        "captured_at": "2026-09-14T13:31:38.873+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0099",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2080034,
+              35.1700867
+            ],
+            [
+              128.2082195,
+              35.170053
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700699,
+        "longitude": 128.2081115,
+        "lcs_score": 66.2,
+        "area_score": 66.0,
+        "continuity_score": 71.5,
+        "contrast_score": 59.4,
+        "brightness_score": 67.0,
+        "frame_count": 4,
+        "confidence": 0.865,
+        "captured_at": "2026-09-14T13:31:39.887+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0100",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2082195,
+              35.170053
+            ],
+            [
+              128.2084357,
+              35.1700194
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700362,
+        "longitude": 128.2083276,
+        "lcs_score": 67.5,
+        "area_score": 67.3,
+        "continuity_score": 72.7,
+        "contrast_score": 60.9,
+        "brightness_score": 68.2,
+        "frame_count": 4,
+        "confidence": 0.868,
+        "captured_at": "2026-09-14T13:31:40.901+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0101",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2084357,
+              35.1700194
+            ],
+            [
+              128.2086518,
+              35.1699857
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1700025,
+        "longitude": 128.2085438,
+        "lcs_score": 69.2,
+        "area_score": 69.1,
+        "continuity_score": 74.2,
+        "contrast_score": 62.9,
+        "brightness_score": 69.8,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:41.915+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0102",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2086518,
+              35.1699857
+            ],
+            [
+              128.2088382,
+              35.1699567
+            ],
+            [
+              128.2088677,
+              35.169951
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1699689,
+        "longitude": 128.2087599,
+        "lcs_score": 71.4,
+        "area_score": 71.3,
+        "continuity_score": 76.2,
+        "contrast_score": 65.4,
+        "brightness_score": 71.7,
+        "frame_count": 4,
+        "confidence": 0.878,
+        "captured_at": "2026-09-14T13:31:42.929+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0103",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2088677,
+              35.169951
+            ],
+            [
+              128.209082,
+              35.16991
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1699305,
+        "longitude": 128.2089748,
+        "lcs_score": 73.9,
+        "area_score": 73.9,
+        "continuity_score": 78.4,
+        "contrast_score": 68.2,
+        "brightness_score": 74.0,
+        "frame_count": 4,
+        "confidence": 0.885,
+        "captured_at": "2026-09-14T13:31:43.943+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0104",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.209082,
+              35.16991
+            ],
+            [
+              128.2092962,
+              35.169869
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1698895,
+        "longitude": 128.2091891,
+        "lcs_score": 76.7,
+        "area_score": 76.8,
+        "continuity_score": 80.8,
+        "contrast_score": 71.4,
+        "brightness_score": 76.5,
+        "frame_count": 4,
+        "confidence": 0.892,
+        "captured_at": "2026-09-14T13:31:44.957+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0105",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2092962,
+              35.169869
+            ],
+            [
+              128.2095104,
+              35.169828
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1698485,
+        "longitude": 128.2094033,
+        "lcs_score": 79.5,
+        "area_score": 79.7,
+        "continuity_score": 83.3,
+        "contrast_score": 74.7,
+        "brightness_score": 79.1,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:45.971+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0106",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2095104,
+              35.169828
+            ],
+            [
+              128.2097247,
+              35.169787
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1698075,
+        "longitude": 128.2096175,
+        "lcs_score": 82.4,
+        "area_score": 82.7,
+        "continuity_score": 85.9,
+        "contrast_score": 78.0,
+        "brightness_score": 81.6,
+        "frame_count": 4,
+        "confidence": 0.907,
+        "captured_at": "2026-09-14T13:31:46.985+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0107",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2097247,
+              35.169787
+            ],
+            [
+              128.209778,
+              35.1697768
+            ],
+            [
+              128.2099391,
+              35.1697467
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1697667,
+        "longitude": 128.2098318,
+        "lcs_score": 85.1,
+        "area_score": 85.5,
+        "continuity_score": 88.3,
+        "contrast_score": 81.1,
+        "brightness_score": 84.1,
+        "frame_count": 4,
+        "confidence": 0.914,
+        "captured_at": "2026-09-14T13:31:48.000+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0108",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2099391,
+              35.1697467
+            ],
+            [
+              128.2101536,
+              35.1697065
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1697266,
+        "longitude": 128.2100463,
+        "lcs_score": 87.6,
+        "area_score": 88.1,
+        "continuity_score": 90.5,
+        "contrast_score": 83.9,
+        "brightness_score": 86.3,
+        "frame_count": 4,
+        "confidence": 0.92,
+        "captured_at": "2026-09-14T13:31:49.014+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0109",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2101536,
+              35.1697065
+            ],
+            [
+              128.2103681,
+              35.1696664
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1696865,
+        "longitude": 128.2102608,
+        "lcs_score": 89.6,
+        "area_score": 90.2,
+        "continuity_score": 92.3,
+        "contrast_score": 86.3,
+        "brightness_score": 88.2,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:50.028+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0110",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2103681,
+              35.1696664
+            ],
+            [
+              128.2105826,
+              35.1696263
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1696464,
+        "longitude": 128.2104753,
+        "lcs_score": 91.3,
+        "area_score": 91.9,
+        "continuity_score": 93.7,
+        "contrast_score": 88.2,
+        "brightness_score": 89.6,
+        "frame_count": 4,
+        "confidence": 0.93,
+        "captured_at": "2026-09-14T13:31:51.042+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0111",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2105826,
+              35.1696263
+            ],
+            [
+              128.210797,
+              35.1695862
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1696062,
+        "longitude": 128.2106898,
+        "lcs_score": 92.4,
+        "area_score": 93.0,
+        "continuity_score": 94.7,
+        "contrast_score": 89.5,
+        "brightness_score": 90.7,
+        "frame_count": 4,
+        "confidence": 0.932,
+        "captured_at": "2026-09-14T13:31:52.056+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0112",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.210797,
+              35.1695862
+            ],
+            [
+              128.2108563,
+              35.1695751
+            ],
+            [
+              128.2110108,
+              35.1695436
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1695654,
+        "longitude": 128.2109041,
+        "lcs_score": 93.0,
+        "area_score": 93.6,
+        "continuity_score": 95.3,
+        "contrast_score": 90.2,
+        "brightness_score": 91.2,
+        "frame_count": 4,
+        "confidence": 0.934,
+        "captured_at": "2026-09-14T13:31:53.070+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0113",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2110108,
+              35.1695436
+            ],
+            [
+              128.2112243,
+              35.1695002
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1695219,
+        "longitude": 128.2111176,
+        "lcs_score": 93.1,
+        "area_score": 93.8,
+        "continuity_score": 95.4,
+        "contrast_score": 90.3,
+        "brightness_score": 91.3,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:54.084+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0114",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2112243,
+              35.1695002
+            ],
+            [
+              128.2114378,
+              35.1694567
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1694784,
+        "longitude": 128.2113311,
+        "lcs_score": 92.8,
+        "area_score": 93.5,
+        "continuity_score": 95.1,
+        "contrast_score": 90.0,
+        "brightness_score": 91.1,
+        "frame_count": 4,
+        "confidence": 0.934,
+        "captured_at": "2026-09-14T13:31:55.098+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0115",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2114378,
+              35.1694567
+            ],
+            [
+              128.2116513,
+              35.1694132
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.169435,
+        "longitude": 128.2115446,
+        "lcs_score": 92.2,
+        "area_score": 92.9,
+        "continuity_score": 94.6,
+        "contrast_score": 89.3,
+        "brightness_score": 90.5,
+        "frame_count": 4,
+        "confidence": 0.932,
+        "captured_at": "2026-09-14T13:31:56.112+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0116",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2116513,
+              35.1694132
+            ],
+            [
+              128.2116525,
+              35.169413
+            ],
+            [
+              128.2118661,
+              35.1693742
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1693937,
+        "longitude": 128.2117587,
+        "lcs_score": 91.5,
+        "area_score": 92.1,
+        "continuity_score": 94.0,
+        "contrast_score": 88.5,
+        "brightness_score": 89.9,
+        "frame_count": 4,
+        "confidence": 0.93,
+        "captured_at": "2026-09-14T13:31:57.126+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0117",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2118661,
+              35.1693742
+            ],
+            [
+              128.2120809,
+              35.1693351
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1693546,
+        "longitude": 128.2119735,
+        "lcs_score": 90.7,
+        "area_score": 91.3,
+        "continuity_score": 93.2,
+        "contrast_score": 87.5,
+        "brightness_score": 89.1,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:31:58.140+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0118",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2120809,
+              35.1693351
+            ],
+            [
+              128.2122957,
+              35.169296
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1693156,
+        "longitude": 128.2121883,
+        "lcs_score": 90.0,
+        "area_score": 90.5,
+        "continuity_score": 92.6,
+        "contrast_score": 86.7,
+        "brightness_score": 88.5,
+        "frame_count": 4,
+        "confidence": 0.926,
+        "captured_at": "2026-09-14T13:31:59.154+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0119",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2122957,
+              35.169296
+            ],
+            [
+              128.2125105,
+              35.169257
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1692765,
+        "longitude": 128.2124031,
+        "lcs_score": 89.4,
+        "area_score": 89.9,
+        "continuity_score": 92.1,
+        "contrast_score": 86.0,
+        "brightness_score": 88.0,
+        "frame_count": 4,
+        "confidence": 0.925,
+        "captured_at": "2026-09-14T13:32:00.169+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0120",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2125105,
+              35.169257
+            ],
+            [
+              128.2127017,
+              35.1692222
+            ],
+            [
+              128.2127252,
+              35.1692177
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1692374,
+        "longitude": 128.2126178,
+        "lcs_score": 89.1,
+        "area_score": 89.6,
+        "continuity_score": 91.8,
+        "contrast_score": 85.7,
+        "brightness_score": 87.7,
+        "frame_count": 4,
+        "confidence": 0.924,
+        "captured_at": "2026-09-14T13:32:01.183+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0121",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2127252,
+              35.1692177
+            ],
+            [
+              128.2129393,
+              35.1691764
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.169197,
+        "longitude": 128.2128322,
+        "lcs_score": 89.2,
+        "area_score": 89.7,
+        "continuity_score": 91.9,
+        "contrast_score": 85.7,
+        "brightness_score": 87.7,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:32:02.197+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0122",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2129393,
+              35.1691764
+            ],
+            [
+              128.2131535,
+              35.1691352
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1691558,
+        "longitude": 128.2130464,
+        "lcs_score": 89.5,
+        "area_score": 90.0,
+        "continuity_score": 92.2,
+        "contrast_score": 86.2,
+        "brightness_score": 88.1,
+        "frame_count": 4,
+        "confidence": 0.925,
+        "captured_at": "2026-09-14T13:32:03.211+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0123",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2131535,
+              35.1691352
+            ],
+            [
+              128.213351,
+              35.1690971
+            ],
+            [
+              128.2133679,
+              35.1690947
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1691145,
+        "longitude": 128.2132606,
+        "lcs_score": 90.2,
+        "area_score": 90.8,
+        "continuity_score": 92.8,
+        "contrast_score": 86.9,
+        "brightness_score": 88.7,
+        "frame_count": 4,
+        "confidence": 0.927,
+        "captured_at": "2026-09-14T13:32:04.225+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0124",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2133679,
+              35.1690947
+            ],
+            [
+              128.2135847,
+              35.1690644
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1690796,
+        "longitude": 128.2134763,
+        "lcs_score": 91.1,
+        "area_score": 91.7,
+        "continuity_score": 93.6,
+        "contrast_score": 88.0,
+        "brightness_score": 89.5,
+        "frame_count": 4,
+        "confidence": 0.929,
+        "captured_at": "2026-09-14T13:32:05.239+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0125",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2135847,
+              35.1690644
+            ],
+            [
+              128.2138016,
+              35.1690341
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1690492,
+        "longitude": 128.2136932,
+        "lcs_score": 92.2,
+        "area_score": 92.9,
+        "continuity_score": 94.6,
+        "contrast_score": 89.3,
+        "brightness_score": 90.5,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:32:06.253+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0126",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2138016,
+              35.1690341
+            ],
+            [
+              128.2140185,
+              35.1690037
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1690189,
+        "longitude": 128.2139101,
+        "lcs_score": 93.4,
+        "area_score": 94.1,
+        "continuity_score": 95.6,
+        "contrast_score": 90.6,
+        "brightness_score": 91.6,
+        "frame_count": 4,
+        "confidence": 0.935,
+        "captured_at": "2026-09-14T13:32:07.267+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0127",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2140185,
+              35.1690037
+            ],
+            [
+              128.2142354,
+              35.1689734
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689886,
+        "longitude": 128.2141269,
+        "lcs_score": 94.5,
+        "area_score": 95.2,
+        "continuity_score": 96.6,
+        "contrast_score": 91.8,
+        "brightness_score": 92.5,
+        "frame_count": 4,
+        "confidence": 0.938,
+        "captured_at": "2026-09-14T13:32:08.281+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0128",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2142354,
+              35.1689734
+            ],
+            [
+              128.2144522,
+              35.168943
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689582,
+        "longitude": 128.2143438,
+        "lcs_score": 95.3,
+        "area_score": 96.0,
+        "continuity_score": 97.3,
+        "contrast_score": 92.8,
+        "brightness_score": 93.3,
+        "frame_count": 4,
+        "confidence": 0.94,
+        "captured_at": "2026-09-14T13:32:09.295+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0129",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2144522,
+              35.168943
+            ],
+            [
+              128.2146513,
+              35.1689152
+            ],
+            [
+              128.2146693,
+              35.168914
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689279,
+        "longitude": 128.2145607,
+        "lcs_score": 95.8,
+        "area_score": 96.6,
+        "continuity_score": 97.8,
+        "contrast_score": 93.4,
+        "brightness_score": 93.8,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:32:10.309+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0130",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2146693,
+              35.168914
+            ],
+            [
+              128.2148886,
+              35.1688993
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689067,
+        "longitude": 128.214779,
+        "lcs_score": 96.0,
+        "area_score": 96.7,
+        "continuity_score": 97.9,
+        "contrast_score": 93.6,
+        "brightness_score": 93.9,
+        "frame_count": 4,
+        "confidence": 0.942,
+        "captured_at": "2026-09-14T13:32:11.323+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0131",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2148886,
+              35.1688993
+            ],
+            [
+              128.2151079,
+              35.1688847
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.168892,
+        "longitude": 128.2149983,
+        "lcs_score": 95.5,
+        "area_score": 96.3,
+        "continuity_score": 97.5,
+        "contrast_score": 93.1,
+        "brightness_score": 93.5,
+        "frame_count": 4,
+        "confidence": 0.941,
+        "captured_at": "2026-09-14T13:32:12.338+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0132",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2151079,
+              35.1688847
+            ],
+            [
+              128.2151419,
+              35.1688824
+            ],
+            [
+              128.2153278,
+              35.1688831
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1688827,
+        "longitude": 128.2152178,
+        "lcs_score": 94.7,
+        "area_score": 95.4,
+        "continuity_score": 96.7,
+        "contrast_score": 92.1,
+        "brightness_score": 92.7,
+        "frame_count": 4,
+        "confidence": 0.939,
+        "captured_at": "2026-09-14T13:32:13.352+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0133",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2153278,
+              35.1688831
+            ],
+            [
+              128.2155479,
+              35.1688839
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1688835,
+        "longitude": 128.2154378,
+        "lcs_score": 93.2,
+        "area_score": 93.9,
+        "continuity_score": 95.5,
+        "contrast_score": 90.4,
+        "brightness_score": 91.4,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:32:14.366+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0134",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2155479,
+              35.1688839
+            ],
+            [
+              128.215729,
+              35.1688846
+            ],
+            [
+              128.2157676,
+              35.1688883
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1688843,
+        "longitude": 128.2156579,
+        "lcs_score": 91.3,
+        "area_score": 91.9,
+        "continuity_score": 93.8,
+        "contrast_score": 88.3,
+        "brightness_score": 89.7,
+        "frame_count": 4,
+        "confidence": 0.93,
+        "captured_at": "2026-09-14T13:32:15.380+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0135",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2157676,
+              35.1688883
+            ],
+            [
+              128.2159861,
+              35.1689093
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1688988,
+        "longitude": 128.2158769,
+        "lcs_score": 89.0,
+        "area_score": 89.6,
+        "continuity_score": 91.8,
+        "contrast_score": 85.6,
+        "brightness_score": 87.6,
+        "frame_count": 4,
+        "confidence": 0.924,
+        "captured_at": "2026-09-14T13:32:16.394+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0136",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2159861,
+              35.1689093
+            ],
+            [
+              128.2162047,
+              35.1689303
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689198,
+        "longitude": 128.2160954,
+        "lcs_score": 86.5,
+        "area_score": 86.9,
+        "continuity_score": 89.5,
+        "contrast_score": 82.7,
+        "brightness_score": 85.3,
+        "frame_count": 4,
+        "confidence": 0.917,
+        "captured_at": "2026-09-14T13:32:17.408+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0137",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2162047,
+              35.1689303
+            ],
+            [
+              128.2164232,
+              35.1689513
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689408,
+        "longitude": 128.2163139,
+        "lcs_score": 83.8,
+        "area_score": 84.2,
+        "continuity_score": 87.1,
+        "contrast_score": 79.6,
+        "brightness_score": 82.9,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:32:18.422+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0138",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2164232,
+              35.1689513
+            ],
+            [
+              128.2166417,
+              35.1689723
+            ]
+          ]
+        },
+        "lcs_grade": "양호"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689618,
+        "longitude": 128.2165324,
+        "lcs_score": 81.1,
+        "area_score": 81.4,
+        "continuity_score": 84.8,
+        "contrast_score": 76.5,
+        "brightness_score": 80.5,
+        "frame_count": 4,
+        "confidence": 0.903,
+        "captured_at": "2026-09-14T13:32:19.436+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0139",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2166417,
+              35.1689723
+            ],
+            [
+              128.2167317,
+              35.168981
+            ],
+            [
+              128.2168573,
+              35.1690063
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1689848,
+        "longitude": 128.2167505,
+        "lcs_score": 78.6,
+        "area_score": 78.7,
+        "continuity_score": 82.5,
+        "contrast_score": 73.6,
+        "brightness_score": 78.2,
+        "frame_count": 4,
+        "confidence": 0.897,
+        "captured_at": "2026-09-14T13:32:20.450+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0140",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2168573,
+              35.1690063
+            ],
+            [
+              128.217071,
+              35.1690494
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1690279,
+        "longitude": 128.2169642,
+        "lcs_score": 76.2,
+        "area_score": 76.3,
+        "continuity_score": 80.4,
+        "contrast_score": 70.9,
+        "brightness_score": 76.1,
+        "frame_count": 4,
+        "confidence": 0.891,
+        "captured_at": "2026-09-14T13:32:21.464+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0141",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.217071,
+              35.1690494
+            ],
+            [
+              128.2171339,
+              35.1690621
+            ],
+            [
+              128.2172813,
+              35.1691019
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1690737,
+        "longitude": 128.2171768,
+        "lcs_score": 74.3,
+        "area_score": 74.3,
+        "continuity_score": 78.7,
+        "contrast_score": 68.6,
+        "brightness_score": 74.3,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:32:22.478+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0142",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2172813,
+              35.1691019
+            ],
+            [
+              128.2174902,
+              35.1691584
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1691302,
+        "longitude": 128.2173857,
+        "lcs_score": 72.6,
+        "area_score": 72.6,
+        "continuity_score": 77.2,
+        "contrast_score": 66.8,
+        "brightness_score": 72.8,
+        "frame_count": 4,
+        "confidence": 0.881,
+        "captured_at": "2026-09-14T13:32:23.492+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0143",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2174902,
+              35.1691584
+            ],
+            [
+              128.2176991,
+              35.1692149
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1691866,
+        "longitude": 128.2175946,
+        "lcs_score": 71.5,
+        "area_score": 71.4,
+        "continuity_score": 76.2,
+        "contrast_score": 65.4,
+        "brightness_score": 71.8,
+        "frame_count": 4,
+        "confidence": 0.878,
+        "captured_at": "2026-09-14T13:32:24.507+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0144",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2176991,
+              35.1692149
+            ],
+            [
+              128.217839,
+              35.1692527
+            ],
+            [
+              128.2179055,
+              35.1692766
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1692431,
+        "longitude": 128.2178035,
+        "lcs_score": 70.6,
+        "area_score": 70.5,
+        "continuity_score": 75.5,
+        "contrast_score": 64.5,
+        "brightness_score": 71.0,
+        "frame_count": 4,
+        "confidence": 0.876,
+        "captured_at": "2026-09-14T13:32:25.521+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0145",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2179055,
+              35.1692766
+            ],
+            [
+              128.218107,
+              35.1693489
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1693128,
+        "longitude": 128.2180062,
+        "lcs_score": 70.1,
+        "area_score": 70.0,
+        "continuity_score": 75.0,
+        "contrast_score": 63.9,
+        "brightness_score": 70.6,
+        "frame_count": 4,
+        "confidence": null,
+        "captured_at": "2026-09-14T13:32:26.535+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0146",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.218107,
+              35.1693489
+            ],
+            [
+              128.2183084,
+              35.1694213
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1693851,
+        "longitude": 128.2182077,
+        "lcs_score": 69.9,
+        "area_score": 69.8,
+        "continuity_score": 74.8,
+        "contrast_score": 63.6,
+        "brightness_score": 70.4,
+        "frame_count": 4,
+        "confidence": 0.874,
+        "captured_at": "2026-09-14T13:32:27.549+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    },
+    {
+      "segment_id": "SAMPLE_0147",
+      "map": {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              128.2183084,
+              35.1694213
+            ],
+            [
+              128.2183224,
+              35.1694263
+            ],
+            [
+              128.2185039,
+              35.1695037
+            ]
+          ]
+        },
+        "lcs_grade": "주의"
+      },
+      "detail": {
+        "road_name": "진마대로",
+        "latitude": 35.1694621,
+        "longitude": 128.2184064,
+        "lcs_score": 69.8,
+        "area_score": 69.7,
+        "continuity_score": 74.7,
+        "contrast_score": 63.5,
+        "brightness_score": 70.2,
+        "frame_count": 4,
+        "confidence": 0.874,
+        "captured_at": "2026-09-14T13:32:28.563+09:00",
+        "capture_metadata": {
+          "weather": "맑음",
+          "day_night": "주간",
+          "vehicle_speed": 71.0,
+          "camera_model": "Galaxy S25 Ultra (후면 1배)"
+        }
+      }
+    }
+  ]
+}

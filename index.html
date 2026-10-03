@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MapWear — 영상으로 읽는 차선 상태</title>
+  <meta name="description" content="MapWear는 주행 영상을 AI로 분석해 차선 마모도를 LCS 점수로 바꾸고, 20m 구간 단위 지도로 제공합니다.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="brand-mark"></span>MapWear<small>by VisionPath</small></a>
+  <nav class="nav">
+    <a href="#why">왜 필요한가</a>
+    <a href="#tech">기술</a>
+    <a href="#lcs">LCS 점수</a>
+    <a href="#result">결과</a>
+    <a class="btn btn-primary" href="dashboard.html">대시보드</a>
+  </nav>
+</header>
+<div class="notice" id="notice" hidden></div>
+
+<!-- ① 첫 화면 -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">AI 기반 차선 상태 데이터</span>
+    <h1>주행 영상 한 편으로<br><em>차선의 상태를 점수로</em></h1>
+    <p>MapWear는 주행 영상을 AI로 분석해 차선이 얼마나 닳았는지를
+       <b>LCS(Lane Condition Score)</b>로 바꾸고, 20m 구간마다 지도 위에 보여줍니다.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="dashboard.html">대시보드 보기 →</a>
+      <a class="btn btn-ghost" href="#tech">기술 살펴보기</a>
+    </div>
+    <div class="hero-stats">
+      <div><b>20m</b><span>구간 단위 분석</span></div>
+      <div><b>4개 지표</b><span>면적·연속성·명암비·밝기</span></div>
+      <div><b>0~100점</b><span>양호 · 주의 · 위험</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ② 왜 필요한가 -->
+<section class="section" id="why">
+  <div class="wrap">
+    <div class="kicker">WHY</div>
+    <h2>차선 점검, 이제 데이터로</h2>
+    <p class="lead">닳은 차선은 비 오는 밤에 잘 보이지 않고, 차선을 읽는 운전자 보조 기능도 헷갈리게 합니다.
+      MapWear는 차선 상태를 같은 기준의 숫자로 바꿔, 어디부터 손봐야 할지 한눈에 보이게 합니다.</p>
+    <div class="cards3">
+      <div class="card">
+        <div class="ico">①</div>
+        <h3>눈으로 하는 점검의 한계</h3>
+        <p>사람마다 판단이 달라, 여러 구간을 같은 기준으로 비교하기 어렵습니다.</p>
+      </div>
+      <div class="card">
+        <div class="ico">②</div>
+        <h3>주행 영상이면 충분합니다</h3>
+        <p>차량에 단 카메라 영상만으로 긴 도로를 한 번에 살펴봅니다.</p>
+      </div>
+      <div class="card">
+        <div class="ico">③</div>
+        <h3>구간별 점수로 제공합니다</h3>
+        <p>20m마다 0~100점과 등급을 매겨 지도와 데이터 파일로 제공합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ③ 기술 단계 -->
+<section class="section alt" id="tech">
+  <div class="wrap">
+    <div class="kicker">TECHNOLOGY</div>
+    <h2>영상이 점수가 되기까지</h2>
+    <p class="lead">여섯 단계를 거쳐 차선 한 줄 한 줄의 상태를 숫자로 바꿉니다.</p>
+
+    <div class="steps">
+      <article class="step">
+        <div class="step-media"><img src="assets/img/step1_frame.jpg" alt="주행 영상에서 뽑은 도로 사진" loading="lazy"></div>
+        <div class="step-body">
+          <div class="step-no">STEP 1</div>
+          <h3>영상에서 사진 추출</h3>
+          <p>주행 영상에서 약 4.6m마다 한 장씩 사진을 뽑고, 사진마다 촬영 위치를 붙입니다.</p>
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-media"><div class="placeholder">차선 검출 결과 준비 중<span>촬영 구간 분석 후 공개</span></div></div>
+        <div class="step-body">
+          <div class="step-no">STEP 2</div>
+          <h3>AI 차선 검출 <span class="tag">YOLOv8</span></h3>
+          <p>사진 속 차선이 어디에 있는지 AI가 찾아냅니다. 차선 한 줄마다 따로 구분합니다.</p>
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-media"><div class="placeholder">원근 보정 결과 준비 중<span>촬영 구간 분석 후 공개</span></div></div>
+        <div class="step-body">
+          <div class="step-no">STEP 3</div>
+          <h3>원근 보정 <span class="tag">BEV</span></h3>
+          <p>비스듬히 찍힌 도로를 위에서 내려다본 모습으로 펴서, 실제 거리 기준으로 잴 수 있게 합니다.</p>
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-media"><div class="placeholder">도색 판정 결과 준비 중<span>촬영 구간 분석 후 공개</span></div></div>
+        <div class="step-body">
+          <div class="step-no">STEP 4</div>
+          <h3>도색 판정</h3>
+          <p>차선이 <b>있어야 할 자리</b>와 <b>실제로 남은 도색</b>을 겹쳐, 얼마나 지워졌는지 비교합니다.</p>
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-media">
+          <div class="mini-metrics" aria-label="4개 지표 예시">
+            <div class="row"><span>면적 유지율</span><div class="bar"><i style="width:82%"></i></div><b>82</b></div>
+            <div class="row"><span>연속성</span><div class="bar"><i style="width:96%"></i></div><b>96</b></div>
+            <div class="row"><span>명암비</span><div class="bar"><i style="width:52%"></i></div><b>52</b></div>
+            <div class="row"><span>밝기</span><div class="bar"><i style="width:87%"></i></div><b>87</b></div>
+          </div>
+        </div>
+        <div class="step-body">
+          <div class="step-no">STEP 5</div>
+          <h3>LCS 점수 산출</h3>
+          <p>4개 지표를 합쳐 0~100점의 LCS를 매기고, 양호·주의·위험 세 등급으로 나눕니다.</p>
+        </div>
+      </article>
+
+      <article class="step">
+        <div class="step-media"><div class="step-map" id="stepMap"></div></div>
+        <div class="step-body">
+          <div class="step-no">STEP 6</div>
+          <h3>20m 구간 지도</h3>
+          <p>사진의 위치를 도로를 따라 이어, 20m 구간마다 등급 색으로 지도에 표시합니다.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ④ LCS -->
+<section class="section" id="lcs">
+  <div class="wrap">
+    <div class="kicker">LCS · LANE CONDITION SCORE</div>
+    <h2>차선 상태를 하나의 점수로</h2>
+    <p class="lead">"얼마나 남았나"만 보지 않습니다. 끊김, 노면과의 구분, 밝기까지 함께 봅니다.</p>
+
+    <div class="lcs-grid">
+      <div class="weights">
+        <div class="weight"><div class="pct">40%</div><div><h3>면적 유지율</h3><p>원래 칠해져 있어야 할 면적 중 실제로 남아 있는 비율</p></div><div class="track"><i style="width:40%"></i></div></div>
+        <div class="weight"><div class="pct">25%</div><div><h3>연속성</h3><p>차선이 끊기지 않고 이어진 정도</p></div><div class="track"><i style="width:25%"></i></div></div>
+        <div class="weight"><div class="pct">20%</div><div><h3>명암비</h3><p>노면과 얼마나 뚜렷하게 구분되는지</p></div><div class="track"><i style="width:20%"></i></div></div>
+        <div class="weight"><div class="pct">15%</div><div><h3>밝기</h3><p>차선 자체가 얼마나 밝게 보이는지</p></div><div class="track"><i style="width:15%"></i></div></div>
+      </div>
+
+      <div class="formula">
+        <h3>계산 방식</h3>
+        <code>LCS = 면적 유지율 × 0.40<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 연속성 × 0.25<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 명암비 × 0.20<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 밝기 × 0.15</code>
+        <div class="scale">
+          <div class="scale-bar"><i></i><i></i><i></i></div>
+          <div class="scale-labels"><span>위험</span><span>주의</span><span>양호</span></div>
+          <div class="scale-ticks"><span>0</span><span>60</span><span>80</span><span>100</span></div>
+        </div>
+        <p class="note">구간 하나(20m)에 사진이 여러 장 들어갑니다. 지표마다 사진들의 중앙값을 써서,
+          한 장이 흔들려도 점수가 튀지 않게 합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ⑤ 결과 미리보기 -->
+<section class="section alt" id="result">
+  <div class="wrap">
+    <div class="kicker">RESULT</div>
+    <h2>실제 도로를 지도로</h2>
+    <p class="lead" id="resultLead">직접 촬영한 구간을 20m씩 나눠 지도에 올렸습니다.</p>
+
+    <div class="result">
+      <div class="result-map" id="resultMap"></div>
+      <div class="result-side">
+        <div class="stat-grid">
+          <div class="stat"><b id="statSeg">—</b><span>20m 구간</span></div>
+          <div class="stat"><b id="statLen">—</b><span>분석 거리</span></div>
+          <div class="stat"><b id="statRoad">—</b><span>도로</span></div>
+          <div class="stat"><b id="statDate">—</b><span>촬영일</span></div>
+        </div>
+        <div class="grade-rows" id="gradeRows"></div>
+        <a class="btn btn-primary" href="dashboard.html" style="justify-content:center">대시보드에서 자세히 보기 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>구간을 눌러 점수를 확인해 보세요</h2>
+  <p>지도에서 구간을 선택하면 LCS와 4개 지표, 촬영 정보를 볼 수 있습니다.</p>
+  <a class="btn btn-light" href="dashboard.html">대시보드 열기 →</a>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>MapWear · 비전패스(VisionPath) — 경상국립대학교 창업동아리</span>
+    <span>지도 데이터 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors</span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/intro.js"></script>
+</body>
+</html>

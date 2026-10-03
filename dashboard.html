@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MapWear 대시보드 — 차선 상태 지도</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="dash">
+
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="brand-mark"></span>MapWear<small>대시보드</small></a>
+  <nav class="nav">
+    <a href="index.html">소개</a>
+    <button class="btn btn-primary" id="csvBtn" type="button">CSV 다운로드</button>
+  </nav>
+</header>
+<div class="notice" id="notice" hidden></div>
+
+<div class="toolbar">
+  <form class="search" id="searchForm" role="search">
+    <input id="searchInput" list="roadList" placeholder="도로명 검색" aria-label="도로명 검색">
+    <datalist id="roadList"></datalist>
+    <button type="submit">검색</button>
+  </form>
+  <div class="chips" id="chips" aria-label="등급 필터"></div>
+  <button class="btn btn-light btn-sm" id="resetBtn" type="button">초기화</button>
+  <span class="spacer"></span>
+  <span class="count" id="count"></span>
+</div>
+
+<main class="dash-main">
+  <div id="map"></div>
+  <aside class="panel" id="panel" aria-live="polite"></aside>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/dashboard.js"></script>
+</body>
+</html>
