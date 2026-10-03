@@ -6,9 +6,9 @@ window.MW_CONFIG = {
 
   // 「지도에서 보기」 버튼. {lat} {lon} {name} 이 실제 값으로 바뀐다. PC·휴대폰 모두 웹으로 열린다.
   // 주소 대신 좌표로 연다 — 열린 지도에서 바로 길찾기가 된다 (2026-10-03 사용자 결정)
+  // 구글 지도는 뺐다 — 핀 이름 없이 좌표 숫자로 떠서 보기 나쁘다 (2026-10-03 사용자 결정)
   MAP_LINKS: [
-    { name: "구글 지도", url: "https://www.google.com/maps/search/?api=1&query={lat},{lon}" },
-    { name: "카카오맵",  url: "https://map.kakao.com/link/map/{name},{lat},{lon}" },
+    { name: "카카오맵에서 보기", url: "https://map.kakao.com/link/map/{name},{lat},{lon}" },
   ],
 
   // 점수가 아직 예시 값이면 true → 화면 위쪽에 안내 띠가 뜬다.
