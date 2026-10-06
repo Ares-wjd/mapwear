@@ -42,6 +42,13 @@ window.MW_CONFIG = {
   ],
   SEGMENT_M: 20,                     // 구간 길이 (m)
 
+  // 소개 페이지 「결과」 구역에 보여줄 촬영 정보. JSON 에 없는 값이라 여기 적는다.
+  // 데이터를 바꾸면 같이 고칠 것. ⚠️ 사실만 적는다 — "분석 완료" 가 아니라 "뽑은 사진" 수다
+  CAPTURE_STATS: {
+    frames: 643,          // 영상에서 뽑은 사진 수 (step17, 7프레임마다 1장)
+    frame_gap_m: 4.6,     // 사진 사이 거리 (m)
+  },
+
   // 지도 타일 (무료 OpenStreetMap)
   TILE_URL: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
   TILE_ATTR: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',

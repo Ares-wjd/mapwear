@@ -20,7 +20,10 @@
         L.polyline(s.latlngs, { color: MW.color(s.grade), weight: opts.weight || 6, opacity: 0.95, lineCap: "butt" })
       )
     ).addTo(map);
-    map.fitBounds(group.getBounds(), { padding: [20, 20] });
+    const fit = () => { map.invalidateSize(); map.fitBounds(group.getBounds(), { padding: [20, 20] }); };
+    fit();
+    // 글꼴·그림이 늦게 들어오면 지도 칸 크기가 바뀐다. 그때 다시 맞추지 않으면 한쪽이 회색으로 빈다
+    new ResizeObserver(fit).observe(document.getElementById(elId));
     return map;
   }
 
@@ -37,6 +40,9 @@
   const d0 = segs[0].d;
   document.getElementById("statSeg").textContent = segs.length + "개";
   document.getElementById("statLen").textContent = ((segs.length * MW_CONFIG.SEGMENT_M) / 1000).toFixed(2) + "km";
+  const cs = MW_CONFIG.CAPTURE_STATS || {};
+  document.getElementById("statFrames").textContent = cs.frames ? cs.frames + "장" : "—";
+  document.getElementById("statGap").textContent = cs.frame_gap_m ? "약 " + cs.frame_gap_m + "m" : "—";
   document.getElementById("statRoad").textContent = d0.road_name || "—";
   document.getElementById("statDate").textContent = MW.fmtTime(d0.captured_at).slice(0, 10);
 

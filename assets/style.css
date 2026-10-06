@@ -193,6 +193,9 @@ h1, h2, h3 { line-height: 1.3; margin: 0; }
 .result-map { height: 440px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); }
 .result-side { display: flex; flex-direction: column; gap: 16px; }
 .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.can-do { list-style: none; margin: 0; padding: 14px 18px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; font-size: 14.5px; display: flex; flex-direction: column; gap: 6px; }
+.can-do li { padding-left: 22px; position: relative; }
+.can-do li::before { content: "✓"; position: absolute; left: 0; color: var(--good); font-weight: 800; }
 .stat { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
 .stat b { display: block; font-size: 24px; font-weight: 800; }
 .stat span { font-size: 13px; color: var(--muted); }
