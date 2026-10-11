@@ -234,15 +234,16 @@ function renderDetail(s) {
 // ---------- CSV (정의서 12장 — 지금 필터 조건 그대로) ----------
 $("csvBtn").onclick = () => {
   const sample = C.SHOW_SAMPLE_NOTICE;     // 점수가 예시 값이면 파일 안팎에 표시한다
+  const note = sample ? "예시 값(실제 점수 아님)" : (C.DATA_NOTE_SHORT || "");   // 실제 점수면 "상대 평가" 라고 적는다
   const cols = ["segment_id", "road_name", "latitude", "longitude", "lcs_score", "lcs_grade",
     "area_score", "continuity_score", "contrast_score", "brightness_score", "captured_at", "frame_count"];
-  if (sample) cols.push("note");
+  if (note) cols.push("note");
   const esc = (v) => (v === null || v === undefined ? "" : /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : v);
   const lines = [cols.join(",")];
   const shown = state.segs.filter(visible);
   shown.forEach((s) => {
     const row = { ...s.d, segment_id: s.id, lcs_grade: s.grade === C.NO_DATA ? "" : s.grade,
-                  note: "예시 값(실제 점수 아님)" };
+                  note };
     lines.push(cols.map((c) => esc(row[c])).join(","));
   });
   // 파일 이름은 오늘 날짜가 아니라 촬영 날짜

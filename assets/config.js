@@ -11,10 +11,15 @@ window.MW_CONFIG = {
     { name: "카카오맵에서 보기", url: "https://map.kakao.com/link/map/{name},{lat},{lon}" },
   ],
 
-  // 점수가 아직 예시 값이면 true → 화면 위쪽에 안내 띠가 뜬다.
-  // YOLO 결과로 진짜 점수를 넣은 뒤 false 로 바꾼다.
-  SHOW_SAMPLE_NOTICE: true,
+  // 점수가 아직 예시 값이면 true → 화면 위쪽에 예시 값 안내 띠가 뜬다.
+  // 2026-10-11 촬영 영상을 분석한 실제 점수로 바꿨다 → false
+  SHOW_SAMPLE_NOTICE: false,
   SAMPLE_NOTICE: "현재 지도의 위치는 실제 촬영 구간이고, 점수는 화면 확인용 예시 값입니다.",
+  // 실제 점수일 때 위쪽 띠에 띄우는 안내. 빈 문자열이면 띠를 띄우지 않는다.
+  // 🔴 이 촬영 구간의 「주의」 는 마모가 확인된 곳이 아니다. 밝기·명암비 기준을 이 구간의 측정값에 맞춰 잡았기 때문에
+  //    구간 안에서 상대적으로 낮은 곳이 「주의」 로 나온다. 그 사실을 화면에 밝힌다.
+  DATA_NOTICE: "등급은 이 촬영 구간 안에서의 상대 평가입니다. 「주의」 는 차선의 밝기·노면과의 대비가 상대적으로 낮게 측정된 구간이며, 마모가 확인된 곳은 아닙니다.",
+  DATA_NOTE_SHORT: "이 촬영 구간 안에서의 상대 평가",     // CSV 파일의 note 열에 들어간다
 
   // 등급 색. 지도 선·범례·막대가 모두 이 값을 쓴다
   GRADE_COLORS: {
@@ -107,8 +112,9 @@ window.MW = {
   },
 
   notice(el) {
-    if (!MW_CONFIG.SHOW_SAMPLE_NOTICE) return;
-    el.textContent = MW_CONFIG.SAMPLE_NOTICE;
+    const text = MW_CONFIG.SHOW_SAMPLE_NOTICE ? MW_CONFIG.SAMPLE_NOTICE : MW_CONFIG.DATA_NOTICE;
+    if (!text) return;
+    el.textContent = text;
     el.hidden = false;
   },
 

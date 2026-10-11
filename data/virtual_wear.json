@@ -12,12 +12,12 @@
           "how": "촬영한 그대로입니다.",
           "image": "assets/img/verify/left_orig.jpg",
           "bev": "assets/img/verify/left_orig_bev.jpg",
-          "lcs_score": 96.5,
+          "lcs_score": 88.5,
           "lcs_grade": "양호",
           "area_score": 100.0,
           "continuity_score": 100.0,
-          "contrast_score": 82.7,
-          "brightness_score": 100.0
+          "contrast_score": 100.0,
+          "brightness_score": 23.6
         },
         {
           "id": "short",
@@ -25,12 +25,12 @@
           "how": "가까운 쪽 끝에서 길이의 30% 를 지웠습니다.",
           "image": "assets/img/verify/left_short.jpg",
           "bev": "assets/img/verify/left_short_bev.jpg",
-          "lcs_score": 79.5,
+          "lcs_score": 71.7,
           "lcs_grade": "주의",
-          "area_score": 73.2,
-          "continuity_score": 73.2,
-          "contrast_score": 84.9,
-          "brightness_score": 100.0
+          "area_score": 73.9,
+          "continuity_score": 73.4,
+          "contrast_score": 100.0,
+          "brightness_score": 25.3
         },
         {
           "id": "narrow",
@@ -38,12 +38,12 @@
           "how": "가운데만 남기고 폭을 절반으로 줄였습니다.",
           "image": "assets/img/verify/left_narrow.jpg",
           "bev": "assets/img/verify/left_narrow_bev.jpg",
-          "lcs_score": 89.8,
-          "lcs_grade": "양호",
-          "area_score": 84.2,
+          "lcs_score": 70.6,
+          "lcs_grade": "주의",
+          "area_score": 56.7,
           "continuity_score": 100.0,
-          "contrast_score": 81.0,
-          "brightness_score": 99.2
+          "contrast_score": 100.0,
+          "brightness_score": 19.6
         },
         {
           "id": "fade",
@@ -51,12 +51,12 @@
           "how": "도색과 노면의 밝기 차이를 55% 만 남겼습니다.",
           "image": "assets/img/verify/left_fade.jpg",
           "bev": "assets/img/verify/left_fade_bev.jpg",
-          "lcs_score": 84.8,
-          "lcs_grade": "양호",
+          "lcs_score": 73.3,
+          "lcs_grade": "주의",
           "area_score": 100.0,
           "continuity_score": 100.0,
-          "contrast_score": 48.6,
-          "brightness_score": 67.5
+          "contrast_score": 41.7,
+          "brightness_score": 0.0
         },
         {
           "id": "patch",
@@ -64,12 +64,12 @@
           "how": "도색의 65% 를 군데군데 지우고, 남은 곳도 흐리게 했습니다.",
           "image": "assets/img/verify/left_patch.jpg",
           "bev": "assets/img/verify/left_patch_bev.jpg",
-          "lcs_score": 35.2,
+          "lcs_score": 19.2,
           "lcs_grade": "위험",
-          "area_score": 11.6,
-          "continuity_score": 36.4,
-          "contrast_score": 53.6,
-          "brightness_score": 71.8
+          "area_score": 10.0,
+          "continuity_score": 18.9,
+          "contrast_score": 52.0,
+          "brightness_score": 0.0
         },
         {
           "id": "gone",
@@ -96,12 +96,12 @@
           "how": "촬영한 그대로입니다.",
           "image": "assets/img/verify/right_orig.jpg",
           "bev": "assets/img/verify/right_orig_bev.jpg",
-          "lcs_score": 94.7,
+          "lcs_score": 88.6,
           "lcs_grade": "양호",
-          "area_score": 99.8,
+          "area_score": 97.7,
           "continuity_score": 100.0,
-          "contrast_score": 74.1,
-          "brightness_score": 100.0
+          "contrast_score": 99.5,
+          "brightness_score": 30.9
         },
         {
           "id": "gap",
@@ -109,12 +109,12 @@
           "how": "가운데에서 길이의 30% 를 지웠습니다.",
           "image": "assets/img/verify/right_gap.jpg",
           "bev": "assets/img/verify/right_gap_bev.jpg",
-          "lcs_score": 75.4,
+          "lcs_score": 69.4,
           "lcs_grade": "주의",
-          "area_score": 70.1,
-          "continuity_score": 70.3,
-          "contrast_score": 74.0,
-          "brightness_score": 100.0
+          "area_score": 69.2,
+          "continuity_score": 70.1,
+          "contrast_score": 98.4,
+          "brightness_score": 30.0
         },
         {
           "id": "narrow",
@@ -122,12 +122,12 @@
           "how": "가운데만 남기고 폭을 절반으로 줄였습니다.",
           "image": "assets/img/verify/right_narrow.jpg",
           "bev": "assets/img/verify/right_narrow_bev.jpg",
-          "lcs_score": 85.9,
-          "lcs_grade": "양호",
-          "area_score": 77.5,
+          "lcs_score": 70.1,
+          "lcs_grade": "주의",
+          "area_score": 53.2,
           "continuity_score": 100.0,
-          "contrast_score": 74.6,
-          "brightness_score": 100.0
+          "contrast_score": 96.9,
+          "brightness_score": 30.0
         },
         {
           "id": "fade",
@@ -135,12 +135,12 @@
           "how": "도색과 노면의 밝기 차이를 55% 만 남겼습니다.",
           "image": "assets/img/verify/right_fade.jpg",
           "bev": "assets/img/verify/right_fade_bev.jpg",
-          "lcs_score": 84.6,
-          "lcs_grade": "양호",
-          "area_score": 99.8,
+          "lcs_score": 69.7,
+          "lcs_grade": "주의",
+          "area_score": 97.3,
           "continuity_score": 100.0,
-          "contrast_score": 43.0,
-          "brightness_score": 74.0
+          "contrast_score": 29.1,
+          "brightness_score": 0.0
         },
         {
           "id": "patch",
@@ -148,12 +148,12 @@
           "how": "도색의 65% 를 군데군데 지우고, 남은 곳도 흐리게 했습니다.",
           "image": "assets/img/verify/right_patch.jpg",
           "bev": "assets/img/verify/right_patch_bev.jpg",
-          "lcs_score": 36.8,
+          "lcs_score": 20.1,
           "lcs_grade": "위험",
-          "area_score": 18.8,
-          "continuity_score": 33.9,
-          "contrast_score": 46.2,
-          "brightness_score": 77.6
+          "area_score": 15.6,
+          "continuity_score": 26.0,
+          "contrast_score": 36.6,
+          "brightness_score": 0.0
         }
       ]
     }
