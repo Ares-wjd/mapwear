@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MapWear 검증 실험 — 도색이 지워지면 점수가 내려갈까</title>
+  <meta name="description" content="사진에서 차선 도색을 일부러 지우거나 흐리게 만든 뒤, LCS 점수가 어떻게 달라지는지 확인한 가상 마모 실험입니다.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <!-- 링크 미리보기 (카톡·메신저) — 그림은 절대 주소여야 한다 -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MapWear">
+  <meta property="og:title" content="MapWear 검증 실험 — 도색이 지워지면 점수가 내려갈까">
+  <meta property="og:description" content="사진에서 차선 도색을 일부러 지워, LCS 점수가 어떻게 달라지는지 확인한 가상 마모 실험입니다.">
+  <meta property="og:url" content="https://ares-wjd.github.io/mapwear/verify.html">
+  <meta property="og:image" content="https://ares-wjd.github.io/mapwear/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0B1F33">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="assets/style.css?v=202610111200">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="brand-mark"></span>MapWear<small>검증 실험</small></a>
+  <nav class="nav">
+    <a href="index.html">소개</a>
+    <a href="#how">만든 방법</a>
+    <a class="btn btn-primary" href="dashboard.html">대시보드</a>
+  </nav>
+</header>
+<!-- 🔴 이 띠는 항상 보인다. 실험 사진을 실제 측정으로 읽지 않게 하기 위해서다 -->
+<div class="notice exp">가상 마모 실험입니다 — 사진에서 도색을 <b>일부러 지워 만든 것</b>이며, 실제 도로의 측정 결과가 아닙니다.</div>
+
+<section class="section" id="top">
+  <div class="wrap">
+    <div class="kicker">VERIFICATION · 검증 실험</div>
+    <h2>도색이 지워지면 점수가 내려갈까</h2>
+    <p class="lead">촬영한 구간은 차선이 고르게 선명했습니다. 그래서 사진에서 도색을 일부러 지우거나 흐리게 만든 뒤,
+      <b>원본과 똑같은 계산</b>을 돌려 점수가 어떻게 달라지는지 확인했습니다.</p>
+
+    <!-- 선 종류 고르기 -->
+    <div class="vf-tabs" id="tabs" role="tablist" aria-label="차선 종류"></div>
+    <!-- 마모 형태 고르기 -->
+    <div class="vf-chips" id="cases" aria-label="마모 형태"></div>
+
+    <!-- 원본과 나란히 -->
+    <div class="vf-compare">
+      <article class="vf-card" id="cardOrig"></article>
+      <article class="vf-card" id="cardCase"></article>
+    </div>
+
+    <!-- 어디서 감점됐나 -->
+    <div class="vf-where">
+      <div class="vf-strips">
+        <figure><img id="bevOrig" alt="원본을 위에서 내려다본 그림" loading="lazy"><figcaption>원본</figcaption></figure>
+        <figure><img id="bevCase" alt="가상 마모를 위에서 내려다본 그림" loading="lazy"><figcaption id="bevCaseCap">가상 마모</figcaption></figure>
+      </div>
+      <div class="vf-where-text">
+        <div class="block-title">어디서 감점됐나</div>
+        <p class="vf-how" id="howText"></p>
+        <ul class="vf-diff" id="diff"></ul>
+        <p class="vf-legend"><i class="sw sw-good"></i>도색이 있음 <i class="sw sw-bad"></i>있어야 하는데 없음
+          <span>— 차 앞 12m 를 위에서 내려다본 그림입니다.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="kicker">ALL CASES</div>
+    <h2>마모 형태마다 내려가는 지표가 다릅니다</h2>
+    <p class="lead">지워지면 면적 유지율과 연속성이, 흐려지면 명암비와 밝기가 내려갑니다.</p>
+    <div class="vf-tables" id="tables"></div>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="kicker">METHOD</div>
+    <h2>어떻게 만들었나</h2>
+    <p class="lead">사진만 바꾸고, 계산은 그대로 두었습니다.</p>
+    <div class="cards3">
+      <div class="card">
+        <div class="ico">①</div>
+        <h3>도색을 찾아 지웁니다</h3>
+        <p>원본 사진에서 차선 도색을 찾고, 그 자리를 주변 노면으로 메운 사진을 만듭니다.</p>
+      </div>
+      <div class="card">
+        <div class="ico">②</div>
+        <h3>마모 형태를 입힙니다</h3>
+        <p>길이를 줄이거나, 폭을 좁히거나, 흐리게 하거나, 군데군데 지웁니다.</p>
+      </div>
+      <div class="card">
+        <div class="ico">③</div>
+        <h3>똑같이 계산합니다</h3>
+        <p>원본과 같은 방법으로 4개 지표와 LCS 를 계산해 나란히 놓습니다.</p>
+      </div>
+    </div>
+
+    <div class="vf-limits">
+      <h3>알아 둘 점</h3>
+      <ul>
+        <li><b>실제 마모와는 모양이 다릅니다.</b> 실제 차선은 서서히 흐려지고 갈라지지만, 여기서는 깔끔하게 지웠습니다.
+          이 실험은 「지표가 마모에 반응하는가」 를 확인한 것입니다.</li>
+        <li><b>차선이 있어야 할 자리는 원본에서 구했습니다.</b> 실제로 지워진 차선은 위치를 찾는 일부터 어려울 수 있습니다.</li>
+        <li><b>폭이 좁아지거나 흐려지는 경우는 점수가 덜 내려갑니다.</b> 기준값을 조정하고 있는 부분입니다.</li>
+        <li>점수는 개발 중인 계산 방식으로 낸 참고값입니다.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>실제로 촬영한 구간은 지도에서</h2>
+  <p>이 페이지의 사진은 실험용입니다. 실제 촬영 구간은 대시보드의 지도에서 볼 수 있습니다.</p>
+  <a class="btn btn-light" href="dashboard.html">대시보드 열기 →</a>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>MapWear · 비전패스(VisionPath) — 경상국립대학교 창업동아리</span>
+    <span>이 페이지의 사진은 직접 촬영한 영상에서 뽑아 가공한 것입니다</span>
+  </div>
+</footer>
+
+<script src="assets/config.js?v=202610031018"></script>
+<script src="assets/verify.js?v=202610111200"></script>
+</body>
+</html>
